@@ -43,7 +43,6 @@ const Navbar = () => {
     { name: "Overwatch 2", url: "/teams/overwatch-2" },
     { name: "Apex Legends", url: "/teams/apex" },
   ];
-
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
@@ -51,40 +50,51 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-3 flex items-center justify-between">
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="ghost" className="text-white p-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="3" y1="12" x2="21" y2="12"></line>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <line x1="3" y1="18" x2="21" y2="18"></line>
-              </svg>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="left" className="w-[300px] sm:w-[400px]">
-            <nav className="flex flex-col gap-4">
-              {teamLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.url}
-                  className="text-lg hover:text-concordia-gold"
+        <div className="flex items-center">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" className="text-white p-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
-                  {link.name}
-                </Link>
-              ))}
-            </nav>
-          </SheetContent>
-        </Sheet>
+                  <line x1="3" y1="12" x2="21" y2="12"></line>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="w-[300px] sm:w-[400px]">
+              <nav className="flex flex-col gap-4">
+                {teamLinks.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.url}
+                    className="text-lg hover:text-concordia-gold"
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+          <Link href="/calendar" className="ml-2">
+            <Image
+              src="/icons/calendar.png"
+              alt="Calendar"
+              width={24}
+              height={24}
+              className="text-white hover:text-concordia-gold transition-colors"
+            />
+          </Link>
+        </div>
 
         <Link href="/" className="flex items-center justify-center">
           <Image
@@ -105,7 +115,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={`/socials/${link.name.toLowerCase()}_icon.svg`}
+                src={`/icons/${link.name.toLowerCase()}_icon.svg`}
                 alt={link.name}
                 width={24}
                 height={24}
