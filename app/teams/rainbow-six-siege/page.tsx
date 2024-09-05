@@ -75,7 +75,7 @@ export default function RainbowSixSiegePage() {
         <ResultCard
           tournamentName="Vespa X CR6 Invitational 2024"
           logo="/rainbow-six-siege/cr6.webp"
-          result="5th Overall"
+          result="7th Overall"
           link="https://challonge.com/VESPAInvite/standings"
         />
         <ResultCard
