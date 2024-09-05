@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 const CalendarPage: React.FC = () => {
   return (
     <div className="container mx-auto py-8 px-4">
-      <Card className="bg-concordia-grey text-white">
+      <Card className="bg-concordia-blue text-black">
         <CardHeader>
           <CardTitle className="text-3xl font-bold">Calendar</CardTitle>
         </CardHeader>
