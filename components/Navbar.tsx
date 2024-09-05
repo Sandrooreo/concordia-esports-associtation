@@ -43,6 +43,7 @@ const Navbar = () => {
     { name: "Overwatch 2", url: "/teams/overwatch-2" },
     { name: "Apex Legends", url: "/teams/apex" },
   ];
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
@@ -71,13 +72,19 @@ const Navbar = () => {
                 </svg>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[300px] sm:w-[400px]">
+            <SheetContent
+              side="left"
+              className="w-[300px] sm:w-[400px] bg-concordia-grey"
+            >
+              <h2 className="text-2xl font-bold mb-4 text-concordia-gold">
+                Teams
+              </h2>
               <nav className="flex flex-col gap-4">
                 {teamLinks.map((link) => (
                   <Link
                     key={link.name}
                     href={link.url}
-                    className="text-lg hover:text-concordia-gold"
+                    className="text-lg text-white hover:text-concordia-gold transition-colors duration-200 bg-concordia-burgundy py-2 px-4 rounded-md"
                   >
                     {link.name}
                   </Link>
