@@ -18,7 +18,7 @@ export default function ResultCard(props: ResultCardProps) {
       rel="noopener noreferrer"
       className="block h-full"
     >
-      <Card className="p-2 cursor-pointer hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+      <Card className="p-2 cursor-pointer hover:shadow-lg transition-shadow duration-300 h-full flex flex-col bg-concordia-burgundy">
         <CardHeader className="flex flex-col items-center space-y-1 pb-2">
           <Image
             src={props.logo}
