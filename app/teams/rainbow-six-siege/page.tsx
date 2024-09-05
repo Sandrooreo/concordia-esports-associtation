@@ -97,12 +97,12 @@ export default function RainbowSixSiegePage() {
         <TeamMemberCard
           name="Tranmaxpower"
           role="Entry Fragger"
-          icon="/rainbow-six-siege/kai-kea.png"
+          icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
           name="DxD"
           role="Entry Fragger"
-          icon="/rainbow-six-siege/Melkor.png"
+          icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
           name="CeyBae"
@@ -117,17 +117,22 @@ export default function RainbowSixSiegePage() {
         <TeamMemberCard
           name="Batdashflap"
           role="Support"
-          icon="/rainbow-six-siege/ceybae.png"
+          icon="/rainbow-six-siege/bat.png"
         />
         <TeamMemberCard
-          name="CeyBae"
+          name="Toji"
           role="Flex-Support"
           icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
-          name="CeyBae"
+          name="Bandojay"
           role="Flex-Support"
           icon="/rainbow-six-siege/ceybae.png"
+        />
+        <TeamMemberCard
+          name="Job"
+          role="Entry-Flex"
+          icon="/rainbow-six-siege/job.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
