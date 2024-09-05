@@ -16,16 +16,16 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-4xl font-bold mb-8">
-        Welcome to the McGill Esports Association
+        Welcome to the Concordia Esports Association
       </h1>
       <Card>
         <CardHeader>
-          <CardTitle>About MESA</CardTitle>
+          <CardTitle>About CESA</CardTitle>
         </CardHeader>
         <CardContent>
           <p>
-            The McGill Esports Association (MESA) is dedicated to fostering a
-            vibrant gaming community within McGill University. We support
+            The Concordia Esports Association (CESA) is dedicated to fostering a
+            vibrant gaming community within Concordia University. We support
             various competitive esports teams and organize events for casual and
             competitive gamers alike.
           </p>

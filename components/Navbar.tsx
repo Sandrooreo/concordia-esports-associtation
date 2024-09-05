@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className="container mx-auto px-3 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center bg-gray-100 rounded-xl">
           <Image
-            src="/mesa_zoomed.png"
-            alt="MESA Logo"
+            src="/concordia.png"
+            alt="concordia"
             width={60}
             height={60}
           />
