@@ -15,7 +15,7 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            League of Legends is one of MESA&apos;s largest games, sporting
+            League of Legends is one of CESA&apos;s largest games, sporting
             upwards of 5 teams across all skill levels. Our teams compete in 2
             Riot Games sponsored events, with more tournament opportunities
             available throughout the year. Last year, we had five CLOL teams,
@@ -32,7 +32,7 @@ export default function LeagueOfLegendsPage() {
         <CardContent>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <p className="mb-4">
-            McGill Collegiate League of Legends teams are recruiting for the
+            Concordia Collegiate League of Legends teams are recruiting for the
             Fall 2024 and Winter 2025 season. We will be mainly competing in the
             Fall 2024 CLOL Warmup tournament and the Spring 2025 CLOL
             tournament. If you&apos;re interested in playing League
@@ -40,10 +40,10 @@ export default function LeagueOfLegendsPage() {
           </p>
           <br></br>
           <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSepejMZs9jCIhyNViZHiVW3EUAeQOvQBAkidZEs-oiWwg_U4g/viewform?usp=sf_link"
+            href="https://forms.gle/zPXnKhTbUwQjtXUb7"
             target="_blank"
           >
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+            <Button className="bg-concordia-burgundy hover:bg-white-vibrant">
               Join Our Team
             </Button>
           </Link>

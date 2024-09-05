@@ -15,8 +15,8 @@ export default function RainbowSixSiegePage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The McGill R6 team is a competitive Rainbow Six: Siege squad
-            representing McGill University. We have a strong track record in
+            The Concordia R6 team is a competitive Rainbow Six: Siege squad
+            representing Concordia University. We have a strong track record in
             collegiate leagues and are constantly looking to improve and expand
             our roster.
           </p>
@@ -46,7 +46,7 @@ export default function RainbowSixSiegePage() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
-              McGill students with any level of experience in R6 (PC) interested
+              Concordia students with any level of experience in R6 (PC) interested
               in competitive play.
             </li>
             <li>
@@ -56,8 +56,8 @@ export default function RainbowSixSiegePage() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/1c9ySu4KY6ykoj736" target="_blank">
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+          <Link href="https://forms.gle/FChnDwDkcigckDXW9" target="_blank">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>

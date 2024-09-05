@@ -6,8 +6,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "McGill Esports Association",
-  description: "Official website of the McGill Esports Association (MESA)",
+  title: "Concordia Esports Association",
+  description: "Official website of the Concordia Esports Association (CESA)",
 };
 
 export default function RootLayout({

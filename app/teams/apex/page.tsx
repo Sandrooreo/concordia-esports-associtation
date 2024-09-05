@@ -15,8 +15,8 @@ export default function TeamPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The MESA Apex squad is a competitive Apex team that represents
-            McGill in leagues and competitions. We tend to play in collegiate
+            The CESA Apex squad is a competitive Apex team that represents
+            Concordia in leagues and competitions. We tend to play in collegiate
             leagues and other competitions and are always looking for players.
           </p>
           <h3 className="font-semibold mb-2">Competition Schedule</h3>

@@ -10,7 +10,7 @@ import {
 
 const Navbar = () => {
   return (
-    <header className="bg-mcgill text-white">
+    <header className="bg-concordia-burgundy text-white">
       <div className="container mx-auto px-3 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center bg-gray-100 rounded-xl">
           <Image
@@ -20,12 +20,12 @@ const Navbar = () => {
             height={60}
           />
         </Link>
-        <Menubar className="bg-mcgill border-none">
+        <Menubar className="bg-concordia-black border-none">
           <MenubarMenu>
-            <MenubarTrigger className="text-white hover:bg-mcgill-vibrant">
+            <MenubarTrigger className="text-white hover:bg-white">
               Teams
             </MenubarTrigger>
-            <MenubarContent className="bg-mcgill">
+            <MenubarContent className="bg-white">
               <MenubarItem>
                 <Link href="/teams/rainbow-six-siege">Rainbow Six: Siege</Link>
               </MenubarItem>
@@ -60,7 +60,7 @@ const Navbar = () => {
           </MenubarMenu>
           <MenubarMenu>
             <Link
-              href="https://discord.com/invite/AcuuPbQhAv"
+              href=" https://discord.gg/RYM3ep5"
               target="_blank"
               rel="noopener noreferrer"
               passHref

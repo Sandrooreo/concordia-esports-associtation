@@ -4,7 +4,7 @@ import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 
-export default function ValorantPage() {
+export default function OverwatchPage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8">Overwatch Team</h1>
@@ -33,10 +33,10 @@ export default function ValorantPage() {
             the button below to fill out our interest form!
           </p>
           <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd82mT8H5Hs5WP5OiJ-v_4yfZLQVy1OiuhhdG22C7J1sjpNUg/viewform?ts=66ccc15a&edit_requested=true"
+            href="https://forms.gle/3UjnWvuLmjsSh3zt9"
             target="_blank"
           >
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+            <Button className="bg-concordia-burgundy hover:bg-white-vibrant">
               Join Our Team
             </Button>
           </Link>
