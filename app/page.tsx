@@ -9,14 +9,14 @@ const teams = [
   { name: "Rocket League", slug: "rocket-league" },
   { name: "Valorant", slug: "valorant" },
   { name: "Overwatch 2", slug: "overwatch-2" },
-  { name: "Apex Legends", slug: "apex" },
+  { name: "Counter Strike 2", slug: "CS2" },
 ];
 
 export default function Home() {
   return (
     <div>
       <h1 className="text-4xl font-bold mb-8">
-        Welcome to the Concordia Esports Association
+        Welcome to the Concordia Esports Students Association
       </h1>
       <Card>
         <CardHeader>
@@ -24,7 +24,7 @@ export default function Home() {
         </CardHeader>
         <CardContent>
           <p>
-            The Concordia Esports Association (CESA) is dedicated to fostering a
+            The Concordia Esports Students Association (CESA) is dedicated to fostering a
             vibrant gaming community within Concordia University. We support
             various competitive esports teams and organize events for casual and
             competitive gamers alike.

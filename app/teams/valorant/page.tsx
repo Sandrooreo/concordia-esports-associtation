@@ -15,7 +15,7 @@ export default function ValorantPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The McGill Collegiate VALORANT teams play in Collegiate tournaments
+            The Concordia Collegiate VALORANT teams play in Collegiate tournaments
             such as the NACE Starleague and CVal over the course of the
             semester. The teams have signed up and will sign up for any other
             Open tournaments that matches their availability, if they choose to.
