@@ -43,7 +43,7 @@ export default function LeagueOfLegendsPage() {
             href="https://forms.gle/zPXnKhTbUwQjtXUb7"
             target="_blank"
           >
-            <Button className="bg-concordia-burgundy hover:bg-white-vibrant">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>

@@ -36,7 +36,7 @@ export default function OverwatchPage() {
             href="https://forms.gle/3UjnWvuLmjsSh3zt9"
             target="_blank"
           >
-            <Button className="bg-concordia-burgundy hover:bg-white-vibrant">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>

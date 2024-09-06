@@ -15,17 +15,23 @@ export default function RocketLeaguePage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The McGill Rocket League Team competes in the Collegiate Star
-            League&apos;s Star League and the Collegiate Rocket League&apos;s
-            CRL tournaments. The Star League is a university league dedicated
-            towards esports teams from universities across North America. The
-            regular season for NACE (The National Association of Collegiate
-            Esports) starts September 23rd, and games are always Mondays at
-            7:00pm. Here teams champ 3 and below can compete in leagues based on
-            skill level. CRL (Collegiate Rocket League) is a collegiate league
-            run by Psyonix themselves, with a very high level of competition, it
-            is something fun to try and see how far we can go.
+            The Concordia Halycon Rocket League team is a squad representing Concordia University. 
+            We have a long standing history of fun and competitive rosters in collegiate and non collegiate leagues.
+            We are constantly looking to improve and expand our roster with new faces and friends.
           </p>
+          <h3 className="font-semibold mb-2">Competition Schedule</h3>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>Playfly College Esports (Sept 23rd - Early November):</strong> 1 match per week on Monday evenings.
+            </li>
+            <li>
+              <strong>Telus Esports Series 4 (Sept 18-19 - Sept 25-26 - Oct 2-3):</strong> Matches during the weekend.
+            </li>
+            <li>
+              <strong>Open tournaments:</strong> Participation depends on team
+              availability.
+            </li>
+          </ul>
         </CardContent>
       </Card>
 
@@ -35,23 +41,24 @@ export default function RocketLeaguePage() {
         </CardHeader>
         <CardContent>
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
-          <p className="mb-4">
-            The McGill Rocket League Team is looking for McGill students who
-            play Rocket League at a competitive level. You must be at least
-            ranked Diamond-Champ. Please note that as per CSL&apos;s Rules, you
-            must be registered as a full-time student for the duration of the
-            league. We will be recruiting as many players as there is interest
-            for teams. There will always be a place for you, as we will host as
-            many teams as there is interest. Join us by clicking the button
-            below!
-          </p>
-          <Link href="https://forms.gle/2WmcpHag9gK6Y4ub8" target="_blank">
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+          <ul className="list-disc pl-5 mb-4">
+            <li>
+            Players with any level of experience in RL (any platforms) who are interested in competitive play.
+            </li>
+            <li>
+            Full-Time students with a Concordia email address (you can easily ask for one via the StudentHub). 
+            </li>
+            <li>We expect players to be available for games as well as team and indidivual practice throughout the week for a total commitment of about 5h per week.</li>
+            <li>Players need to be able to communicate their availability each weeks to the Coordinator as schedule changes affects practice and game schedule.</li>
+          </ul>
+          <Link href="https://forms.gle/PwzEnNde9tFDuZHX6" target="_blank">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>
         </CardContent>
       </Card>
+
     </div>
   );
 }

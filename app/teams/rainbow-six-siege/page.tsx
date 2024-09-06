@@ -18,17 +18,17 @@ export default function RainbowSixSiegePage() {
             The Concordia R6 team is a competitive Rainbow Six: Siege squad
             representing Concordia University. We have a strong track record in
             collegiate leagues and are constantly looking to improve and expand
-            our roster.
+            our roster with new faces and friends.
           </p>
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
               <strong>CR6 (Sept 21 - Early December):</strong> A long-standing
-              collegiate league in NA. One match per week.
+              collegiate league in NA. One match per week, Default time Fridays 7PM EST.
             </li>
             <li>
               <strong>CCL (Sept 16th - Nov 25th):</strong> A new collegiate
-              Canadian league. One match per week.
+              Canadian league. One match per week, Default time Mondays 7PM EST.
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -51,9 +51,9 @@ export default function RainbowSixSiegePage() {
             </li>
             <li>
               Players available for a few hours on match nights (normally from
-              8pm onwards).
+              8PM onwards).
             </li>
-            <li>Main roster: 3-5 nights/week availability.</li>
+            <li>Main roster: 3-5 nights/week availability (often after 8PM).</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
           <Link href="https://forms.gle/FChnDwDkcigckDXW9" target="_blank">
@@ -133,6 +133,11 @@ export default function RainbowSixSiegePage() {
           name="Job"
           role="Entry-Flex"
           icon="/rainbow-six-siege/job.png"
+        />
+        <TeamMemberCard
+          name="Kyoshi"
+          role="Support"
+          icon="/rainbow-six-siege/kyoshi1.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>

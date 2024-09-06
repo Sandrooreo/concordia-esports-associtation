@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TeamPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Apex Legends Team</h1>
+      <h1 className="text-4xl font-bold mb-8">Counter Strike 2 Legends Team</h1>
 
       <Card className="mb-8">
         <CardHeader>
@@ -15,7 +15,7 @@ export default function TeamPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The CESA Apex squad is a competitive Apex team that represents
+            The CeSA Counter Strike 2 squad is a competitive CS2 team that represents
             Concordia in leagues and competitions. We tend to play in collegiate
             leagues and other competitions and are always looking for players.
           </p>
