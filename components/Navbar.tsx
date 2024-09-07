@@ -3,8 +3,14 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
+import { X } from "lucide-react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -83,6 +89,10 @@ const Navbar = () => {
               side="left"
               className="w-[300px] sm:w-[400px] bg-concordia-grey"
             >
+              <SheetClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary">
+                <X className="h-4 w-4 text-concordia-gold" />
+                <span className="sr-only">Close</span>
+              </SheetClose>
               <h2 className="text-2xl font-bold mb-4 text-concordia-gold">
                 Teams
               </h2>
