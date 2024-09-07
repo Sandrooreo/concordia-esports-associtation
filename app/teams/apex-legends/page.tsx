@@ -22,14 +22,12 @@ export default function ApexLegends() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Octane Collegiate League:</strong>
-              <br></br>Collegiate tournament involving Canadian and American
-              schools. Games happen on Saturday in the afternoon (12pm or 3pm)
-              and lasts 3 hours.
+              <strong>TBD:</strong>
+              <br></br>---
               <ul className="list-disc pl-5">
-                <li>Stage 1: September 27th -{">"} November 17th </li>
-                <li>Stage 2: January 17th -{">"} March 2nd </li>
-                <li>Stage 3: March 22nd -{">"} April 20th </li>
+                <li>TBD -{">"} (insert dates) </li>
+                <li>TBD -{">"} (insert dates) </li>
+                <li>TBD -{">"} (insert dates) </li>
               </ul>
             </li>
             <li>
@@ -48,12 +46,13 @@ export default function ApexLegends() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
-              McGill students with any level of experience in Apex (MK or
-              Controller) and is interested in competing in the league
+             Concordia students with any level of experience in Apex 
+             and is interested in competitive play in leagues or
+             in tournaments. 
             </li>
             <li>
-              Available on Saturday in the afternoon for competition and 2-3
-              days during the week for practice and scrims
+              Available on default play days for competition(s) and 
+              2-3 days during the week for practice and scrims
             </li>
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>

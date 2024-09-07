@@ -11,15 +11,16 @@ export default function StaffAndCreativeTeam() {
 
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle className="text-xl">About Our Team</CardTitle>
+          <CardTitle className="text-xl">Our Staff</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The CeSA Counter Strike 2 squad is a competitive CS2 team that represents
-            Concordia in leagues and competitions. We tend to play in collegiate
-            leagues and other competitions and are always looking for players.
+            The CeSA staff is commited to providing a fun experience, allowing 
+            players to enjoy their time within the Concordia Esports Students 
+            Association. Granting them opportunities to play in various leagues,
+            competitions and tournaments across several games. 
           </p>
-          <h3 className="font-semibold mb-2">Competition Schedule</h3>
+          <h3 className="font-semibold mb-2">The Creative Team</h3>
           <ul className="list-disc pl-5">
             <li>
               <strong>Octane Collegiate League:</strong>
@@ -59,27 +60,12 @@ export default function StaffAndCreativeTeam() {
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
           <Link href="https://forms.gle/xZRRZPrJh8Ds66Ln8" target="_blank">
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>
         </CardContent>
       </Card>
-
-      <h2 className="text-2xl font-semibold mb-4">Results</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
-        <ResultCard
-          tournamentName="Octane Collegiate Playoffs 2022-2023"
-          logo="/apex/octane-collegiate.jpg"
-          result="Top 40 teams"
-        />
-        <ResultCard
-          tournamentName="Octane Collegiate Playoffs Stage 2 2023-2024"
-          logo="/apex/octane-collegiate.jpg"
-          result="Top 20 teams"
-        />
-        {/* Add more ResultCards as needed */}
-      </div>
     </div>
   );
 }
