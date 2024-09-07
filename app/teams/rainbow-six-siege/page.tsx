@@ -87,11 +87,11 @@ export default function RainbowSixSiegePage() {
         {/* Add more ResultCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Team Members</h2>
+      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Oreo"
-          role="Team Captain -- Coach"
+          role="Team Captain -- Coordinator"
           icon="/rainbow-six-siege/oreo.png"
         />
         <TeamMemberCard
@@ -102,7 +102,7 @@ export default function RainbowSixSiegePage() {
         <TeamMemberCard
           name="DxD"
           role="Entry Fragger"
-          icon="/rainbow-six-siege/ceybae.png"
+          icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
           name="CeyBae"
@@ -120,6 +120,22 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/bat.png"
         />
         <TeamMemberCard
+          name="Job"
+          role="Entry-Flex"
+          icon="/rainbow-six-siege/job.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Gold</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Oreo"
+          role="Team Captain -- Coach"
+          icon="/rainbow-six-siege/oreo.png"
+        />
+        <TeamMemberCard
           name="Toji"
           role="Flex-Support"
           icon="/rainbow-six-siege/ceybae.png"
@@ -130,16 +146,10 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
-          name="Job"
-          role="Entry-Flex"
-          icon="/rainbow-six-siege/job.png"
-        />
-        <TeamMemberCard
           name="Kyoshi"
           role="Support"
-          icon="/rainbow-six-siege/kyoshi1.png"
+          icon="/rainbow-six-siege/kyoshi.png"
         />
-        {/* Add more TeamMemberCards as needed */}
       </div>
     </div>
   );

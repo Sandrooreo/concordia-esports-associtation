@@ -41,7 +41,8 @@ const Navbar = () => {
     { name: "Rocket League", url: "/teams/rocket-league" },
     { name: "Valorant", url: "/teams/valorant" },
     { name: "Overwatch 2", url: "/teams/overwatch-2" },
-    { name: "Apex Legends", url: "/teams/apex" },
+    { name: "Counter Strike 2", url: "/teams/cs2" },
+    { name: "Deadlock", url: "/teams/deadlock" },
   ];
 
   return (
