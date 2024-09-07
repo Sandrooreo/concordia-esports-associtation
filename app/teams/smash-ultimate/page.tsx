@@ -4,7 +4,7 @@ import Link from "next/link";
 import ResultCard from "@/components/Cards/ResultCard";
 import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 
-export default function ValorantPage() {
+export default function SmashUltimatePage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8">Smash Ultimate</h1>

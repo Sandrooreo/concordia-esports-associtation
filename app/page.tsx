@@ -30,7 +30,7 @@ export default function Home() {
         </CardHeader>
         <CardContent>
           <p>
-            The Concordia Esports Students Association (CESA) is dedicated to fostering a
+            The Concordia Esports Students Association (CeSA) is dedicated to fostering a
             vibrant gaming community within Concordia University. We support
             various competitive esports teams and organize events for casual and
             competitive gamers alike.

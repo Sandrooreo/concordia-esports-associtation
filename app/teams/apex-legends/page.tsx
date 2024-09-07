@@ -15,7 +15,7 @@ export default function ApexLegends() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The CeSA Counter Strike 2 squad is a competitive CS2 team that represents
+            The CeSA Apex Legends squad is a competitive Apex team that represents
             Concordia in leagues and competitions. We tend to play in collegiate
             leagues and other competitions and are always looking for players.
           </p>
@@ -58,8 +58,8 @@ export default function ApexLegends() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/xZRRZPrJh8Ds66Ln8" target="_blank">
-            <Button className="bg-mcgill hover:bg-mcgill-vibrant">
+          <Link href="TBD FILL HERE" target="_blank">
+            <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>

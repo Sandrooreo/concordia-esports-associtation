@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
-export default function ApexLegends() {
+export default function SpecterDivide() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Apex Legends Team</h1>
+      <h1 className="text-4xl font-bold mb-8">Specter Divide Team</h1>
 
       <Card className="mb-8">
         <CardHeader>
