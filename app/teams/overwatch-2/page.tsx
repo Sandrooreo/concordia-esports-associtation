@@ -15,9 +15,7 @@ export default function OverwatchPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            Our Overwatch team competes in the Overwatch Collegiate Homecoming
-            during both the Fall and Winter semesters, as well as other
-            tournaments.
+            The Concordia Overwatch 2 roster competes in TBD tournaments 
           </p>
         </CardContent>
       </Card>
