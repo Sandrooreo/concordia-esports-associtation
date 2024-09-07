@@ -15,12 +15,7 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            League of Legends is one of CESA&apos;s largest games, sporting
-            upwards of 5 teams across all skill levels. Our teams compete in 2
-            Riot Games sponsored events, with more tournament opportunities
-            available throughout the year. Last year, we had five CLOL teams,
-            ranging from a Masters+ average CLOL A, to a casual CLOL G team for
-            anybody gold and under.
+            League of Legends is one of CeSA's largest games.
           </p>
         </CardContent>
       </Card>
@@ -33,14 +28,11 @@ export default function LeagueOfLegendsPage() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <p className="mb-4">
             Concordia Collegiate League of Legends teams are recruiting for the
-            Fall 2024 and Winter 2025 season. We will be mainly competing in the
-            Fall 2024 CLOL Warmup tournament and the Spring 2025 CLOL
-            tournament. If you&apos;re interested in playing League
-            competitively, then please fill out the form from the button below!
+            Fall 2024 and Winter 2025 season.
           </p>
           <br></br>
           <Link
-            href="https://forms.gle/zPXnKhTbUwQjtXUb7"
+            href="https://forms.gle/yyk9cnHd8jqBuzaj8"
             target="_blank"
           >
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
