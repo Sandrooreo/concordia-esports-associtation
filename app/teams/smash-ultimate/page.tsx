@@ -7,7 +7,7 @@ import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 export default function ValorantPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Valorant Team</h1>
+      <h1 className="text-4xl font-bold mb-8">Smash Ultimate</h1>
 
       <Card className="mb-8">
         <CardHeader>
