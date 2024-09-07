@@ -23,19 +23,17 @@ export default function StaffAndCreativeTeam() {
           <h3 className="font-semibold mb-2">The Creative Team</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Octane Collegiate League:</strong>
-              <br></br>Collegiate tournament involving Canadian and American
-              schools. Games happen on Saturday in the afternoon (12pm or 3pm)
-              and lasts 3 hours.
+              <strong>Casting and Streaming:</strong> Our Casting Team is focused
+              on providing an interesting overview and enjoyable experience for all
+              our listners watching our games. A play by play commentary and an
+              ever expanding addition to the CeSA world. 
               <ul className="list-disc pl-5">
-                <li>Stage 1: September 27th -{">"} November 17th </li>
-                <li>Stage 2: January 17th -{">"} March 2nd </li>
-                <li>Stage 3: March 22nd -{">"} April 20th </li>
               </ul>
             </li>
             <li>
-              <strong>Open tournaments:</strong> Participation depends on team
-              availability.
+              <strong>Production Team:</strong> Our group of Production Team
+              is focused on providing assitance to streaming, additional graphic
+              design and a multitude of technical support. 
             </li>
           </ul>
         </CardContent>
@@ -49,17 +47,21 @@ export default function StaffAndCreativeTeam() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
-              McGill students with any level of experience in Apex (MK or
-              Controller) and is interested in competing in the league
+              Concordia students with a desire to get into the world of content
+              and esports. 
             </li>
             <li>
-              Available on Saturday in the afternoon for competition and 2-3
-              days during the week for practice and scrims
+              We are looking for casters, streamers, and other staff members 
+              dedicated to the production side of esports.
             </li>
-            <li>Main roster: 3-5 nights/week availability.</li>
-            <li>Substitutes: Flexible scheduling with less time commitment.</li>
+            <li>Main importance is availbility for casting on default days of
+              participating leagues and tournaments
+            </li>
+            <li>Small bonus if proficient in knowledge of one or more CeSA 
+              participating games. 
+            </li>
           </ul>
-          <Link href="https://forms.gle/xZRRZPrJh8Ds66Ln8" target="_blank">
+          <Link href="https://forms.gle/MqS9sFqufGYrPQr69" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
