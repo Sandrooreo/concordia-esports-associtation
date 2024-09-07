@@ -4,18 +4,18 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
 const teams = [
+  { name: "Staff and Creative Team", slug: "staff-and-creative-team" },
   { name: "Rainbow Six: Siege", slug: "rainbow-six-siege" },
   { name: "League of Legends", slug: "league-of-legends" },
   { name: "Rocket League", slug: "rocket-league" },
-  { name: "Valorant", slug: "valorant" },
   { name: "Overwatch 2", slug: "overwatch-2" },
+  { name: "Apex Legends", slug: "apex-legends" },
   { name: "Counter Strike 2", slug: "cs2" },
+  { name: "Valorant", slug: "valorant" },
+  { name: "Dota 2", slug: "dota2" },
   { name: "Deadlock", slug: "deadlock" },
   { name: "Smash Ultimate", slug: "smash-ultimate" },
-  { name: "Apex Legends", slug: "apex-legends" },
-  { name: "Dota 2", slug: "dota2" },
   { name: "Specter Divide", slug: "specter-divide" },
-  { name: "Staff and Creative Team", slug: "staff-and-creative-team" },
 ];
 
 export default function Home() {
