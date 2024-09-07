@@ -33,6 +33,7 @@ const Navbar = () => {
       name: "YouTube",
       url: "https://www.youtube.com/channel/UCoorPVHLGUUD-Is00s25SyA",
     },
+    { name: "Twitch", url: "https://www.twitch.tv/esportsconcordia" },
   ];
 
   const teamLinks = [
