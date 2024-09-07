@@ -15,7 +15,7 @@ export default function LeagueOfLegendsPage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            League of Legends is one of CeSA's largest games.
+            League of Legends is one of CeSA&aposs largest games.
           </p>
         </CardContent>
       </Card>
