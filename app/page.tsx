@@ -10,12 +10,12 @@ const teams = [
   { name: "Rocket League", slug: "rocket-league" },
   { name: "Overwatch 2", slug: "overwatch-2" },
   { name: "Apex Legends", slug: "apex-legends" },
-  { name: "Counter Strike 2", slug: "cs2" },
+  { name: "CS2", slug: "cs2" },
   { name: "Valorant", slug: "valorant" },
   { name: "Dota 2", slug: "dota2" },
   { name: "Deadlock", slug: "deadlock" },
   { name: "Smash Ultimate", slug: "smash-ultimate" },
-  { name: "Specter Divide", slug: "specter-divide" },
+  { name: "Specter/Divide", slug: "specter-divide" },
 ];
 
 export default function Home() {

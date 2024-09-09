@@ -68,6 +68,30 @@ export default function StaffAndCreativeTeam() {
           </Link>
         </CardContent>
       </Card>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Staff</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Oreo"
+          role="Team Captain -- Coach"
+          icon="/rainbow-six-siege/oreo.png"
+        />
+        <TeamMemberCard
+          name="Toji"
+          role="Flex-Support"
+          icon="/rainbow-six-siege/ceybae.png"
+        />
+        <TeamMemberCard
+          name="Bandojay"
+          role="Flex-Support"
+          icon="/rainbow-six-siege/ceybae.png"
+        />
+        <TeamMemberCard
+          name="Kyoshi"
+          role="Support"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
+      </div>
     </div>
   );
 }
