@@ -52,17 +52,16 @@ export default function Home() {
           <h3 className="font-semibold mb-2">The Events:</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Concordia Recruitment (Ongoing):</strong> Concordia Esports teams are actively
-              recruiting players for all teams. Click on the teams for more information and for the
-              team sign up forms. 
+              <strong>Concordia Recruitment (Ongoing):</strong> Concordia Esports is on the lookout
+              for new talent! We&#39;re actively recruiting players for all of our teams. Click on the
+              team links below for detailed information and to access the sign-up forms. Join us and
+              become part of our competitive and dynamic esports community!
             </li>
             <li>
-              <strong>ETS R6 LAN (Oct 5th - Oct 6th):</strong> ETS is hosting a small 4 team Montreal
-              collegiate lan event.
+              <strong>ETS R6 LAN:</strong> Announcement TBD
             </li>
             <li>
-              <strong>Open tournaments:</strong> Participation depends on team
-              availability.
+              <strong>Montreal R6 Major:</strong> Announcement TBD
             </li>
           </ul>
         </CardContent>
