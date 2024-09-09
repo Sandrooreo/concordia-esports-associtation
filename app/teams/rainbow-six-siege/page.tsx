@@ -100,13 +100,8 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
-          name="DxD"
-          role="Entry Fragger"
-          icon="/rainbow-six-siege/yoyo.png"
-        />
-        <TeamMemberCard
-          name="CeyBae"
-          role="Flex-Support"
+          name="Cey"
+          role="Flex-Entry"
           icon="/rainbow-six-siege/ceybae.png"
         />
         <TeamMemberCard
@@ -118,6 +113,11 @@ export default function RainbowSixSiegePage() {
           name="Batdashflap"
           role="Support"
           icon="/rainbow-six-siege/bat.png"
+        />
+        <TeamMemberCard
+          name="Yoyo"
+          role="Flex-Support"
+          icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
           name="Job"

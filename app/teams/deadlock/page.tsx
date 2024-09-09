@@ -35,7 +35,7 @@ export default function DeadlockPage() {
             questions or concerns regarding the tryouts, please reach out to an 
             admin on discord. Thank you and we are excited to see everyone soon!
           </p>
-          <Link href="TBD" target="_blank">
+          <Link href="https://forms.gle/okcQJHQRbYVNMTR16" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>

@@ -26,7 +26,7 @@ export default function Home() {
       </h1>
       <Card>
         <CardHeader>
-          <CardTitle>About CESA</CardTitle>
+          <CardTitle>About CeSA</CardTitle>
         </CardHeader>
         <CardContent>
           <p>
@@ -37,6 +37,37 @@ export default function Home() {
           </p>
         </CardContent>
       </Card>
+
+      <Separator className="my-8" />
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle className="text-xl">Upcoming Events</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="mb-4">
+           Our Concordia Esports teams are gearing up for an action-packed season with a
+          lineup of exciting events! Stay connected through our social media channels 
+          for the latest updates and more event information. We look forward to seeing you there! 
+          </p>
+          <h3 className="font-semibold mb-2">The Events:</h3>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>Concordia Recruitment (Ongoing):</strong> Concordia Esports teams are actively
+              recruiting players for all teams. Click on the teams for more information and for the
+              team sign up forms. 
+            </li>
+            <li>
+              <strong>ETS R6 LAN (Oct 5th - Oct 6th):</strong> ETS is hosting a small 4 team Montreal
+              collegiate lan event.
+            </li>
+            <li>
+              <strong>Open tournaments:</strong> Participation depends on team
+              availability.
+            </li>
+          </ul>
+        </CardContent>
+      </Card>
+
       <Separator className="my-8" />
       <h2 className="text-2xl font-semibold mb-4">Our Teams</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

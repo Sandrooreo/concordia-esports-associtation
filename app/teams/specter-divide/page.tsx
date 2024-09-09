@@ -35,7 +35,7 @@ export default function SpecterDividePage() {
             reach out to an admin on discord . Thank you and we&apos;re
             excited to see everyone soon!
           </p>
-          <Link href="TBD" target="_blank">
+          <Link href="https://forms.gle/jwqzdXF79K9rmP7H7" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
