@@ -71,30 +71,35 @@ export default function StaffAndCreativeTeam() {
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Staff</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+      <TeamMemberCard
+          name="Litchi"
+          role="President"
+          icon="/staff/litchi.png"
+        />
+        <TeamMemberCard
+          name="Litchi"
+          role="President"
+          icon="/staff/litchi.png"
+        />
         <TeamMemberCard
           name="RexO"
           role="Head Admin"
           icon="/staff/rex.png"
         />
         <TeamMemberCard
-          name="Litchi"
-          role="Head Admin"
-          icon="/staff/litchi.png"
+          name="Kaz"
+          role="Finance Coordinator"
+          icon="/staff/kaz.png"
+        />
+        <TeamMemberCard
+          name="Dion"
+          role="Event Coordinator"
+          icon="/staff/dion.png"
         />
         <TeamMemberCard
           name=".Syl"
           role="Admin"
           icon="/staff/syl.png"
-        />
-        <TeamMemberCard
-          name="Kaz"
-          role="Admin"
-          icon="/staff/kaz.png"
-        />
-        <TeamMemberCard
-          name="Julien"
-          role="Admin"
-          icon="/staff/julien.png"
         />
         <TeamMemberCard
           name="Eli"
@@ -110,11 +115,6 @@ export default function StaffAndCreativeTeam() {
           name="Vifang"
           role="Admin"
           icon="/staff/vifang.png"
-        />
-        <TeamMemberCard
-          name="Dion"
-          role="Admin"
-          icon="/staff/dion.png"
         />
         <TeamMemberCard
           name=":Beaver"
