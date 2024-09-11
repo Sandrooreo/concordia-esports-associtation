@@ -72,24 +72,74 @@ export default function StaffAndCreativeTeam() {
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Staff</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
+          name="RexO"
+          role="Head Admin"
+          icon="/staff/rex.png"
+        />
+        <TeamMemberCard
+          name="Litchi"
+          role="Head Admin"
+          icon="/staff/litchi.png"
+        />
+        <TeamMemberCard
+          name=".Syl"
+          role="Admin"
+          icon="/staff/syl.png"
+        />
+        <TeamMemberCard
+          name="Kaz"
+          role="Admin"
+          icon="/staff/kaz.png"
+        />
+        <TeamMemberCard
+          name="Julien"
+          role="Admin"
+          icon="/staff/julien.png"
+        />
+        <TeamMemberCard
+          name="Eli"
+          role="Admin"
+          icon="/staff/eli.png"
+        />
+        <TeamMemberCard
+          name="Classiq"
+          role="Admin"
+          icon="/staff/classiq.png"
+        />
+        <TeamMemberCard
+          name="Vifang"
+          role="Admin"
+          icon="/staff/vifang.png"
+        />
+        <TeamMemberCard
+          name="Dion"
+          role="Admin"
+          icon="/staff/dion.png"
+        />
+        <TeamMemberCard
+          name=":Beaver"
+          role="Admin -- RL Coordinator"
+          icon="/staff/beaver.png"
+        />
+        <TeamMemberCard
           name="Oreo"
-          role="Team Captain -- Coach"
+          role="R6 Coordinator"
           icon="/rainbow-six-siege/oreo.png"
         />
         <TeamMemberCard
-          name="Toji"
-          role="Flex-Support"
-          icon="/rainbow-six-siege/ceybae.png"
+          name="Faith~"
+          role="CS2 Coordinator"
+          icon="/staff/faith.png"
         />
         <TeamMemberCard
-          name="Bandojay"
-          role="Flex-Support"
-          icon="/rainbow-six-siege/ceybae.png"
+          name="Yellcwroses"
+          role="Val Coordinator"
+          icon="/staff/yellcwroses.png"
         />
         <TeamMemberCard
-          name="Kyoshi"
-          role="Support"
-          icon="/rainbow-six-siege/kyoshi.png"
+          name="Zane"
+          role="LoL Coordinator"
+          icon="/staff/zane.png"
         />
       </div>
     </div>
