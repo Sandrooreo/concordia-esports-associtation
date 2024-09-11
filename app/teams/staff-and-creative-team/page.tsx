@@ -77,9 +77,9 @@ export default function StaffAndCreativeTeam() {
           icon="/staff/litchi.png"
         />
         <TeamMemberCard
-          name="Litchi"
-          role="President"
-          icon="/staff/litchi.png"
+          name="Julien"
+          role="Vice President"
+          icon="/staff/julien.png"
         />
         <TeamMemberCard
           name="RexO"
