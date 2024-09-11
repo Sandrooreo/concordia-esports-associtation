@@ -97,7 +97,7 @@ export default function RainbowSixSiegePage() {
         <TeamMemberCard
           name="Tranmaxpower"
           role="Entry Fragger"
-          icon="/rainbow-six-siege/ceybae.png"
+          icon="/rainbow-six-siege/tran.png"
         />
         <TeamMemberCard
           name="Cey"
@@ -130,16 +130,6 @@ export default function RainbowSixSiegePage() {
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Gold</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-        <TeamMemberCard
-          name="Oreo"
-          role="Team Captain -- Coach"
-          icon="/rainbow-six-siege/oreo.png"
-        />
-        <TeamMemberCard
-          name="Toji"
-          role="Flex-Support"
-          icon="/rainbow-six-siege/ceybae.png"
-        />
         <TeamMemberCard
           name="Bandojay"
           role="Flex-Support"
