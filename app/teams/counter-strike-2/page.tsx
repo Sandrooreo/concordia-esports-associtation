@@ -55,28 +55,13 @@ export default function CounterStrike2() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/6X5dSutpVAYncViq7" target="_blank">
+          <Link href="https://forms.gle/C6kBx8L4ryU8mBCW6" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
           </Link>
         </CardContent>
       </Card>
-
-      <h2 className="text-2xl font-semibold mb-4">Results</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
-        <ResultCard
-          tournamentName="Octane Collegiate Playoffs 2022-2023"
-          logo="/apex/octane-collegiate.jpg"
-          result="Top 40 teams"
-        />
-        <ResultCard
-          tournamentName="Octane Collegiate Playoffs Stage 2 2023-2024"
-          logo="/apex/octane-collegiate.jpg"
-          result="Top 20 teams"
-        />
-        {/* Add more ResultCards as needed */}
-      </div>
     </div>
   );
 }

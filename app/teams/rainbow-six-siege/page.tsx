@@ -133,7 +133,7 @@ export default function RainbowSixSiegePage() {
         <TeamMemberCard
           name="Bandojay"
           role="Flex-Support"
-          icon="/rainbow-six-siege/ceybae.png"
+          icon="/rainbow-six-siege/bandojay.png"
         />
         <TeamMemberCard
           name="Kyoshi"

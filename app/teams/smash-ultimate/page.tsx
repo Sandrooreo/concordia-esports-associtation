@@ -35,7 +35,7 @@ export default function SmashUltimatePage() {
             reach out to an admin on discord . Thank you and we&apos;re
             excited to see everyone soon!
           </p>
-          <Link href="TBD" target="_blank">
+          <Link href="https://forms.gle/2AM6HDTEN2veGi6H6" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
