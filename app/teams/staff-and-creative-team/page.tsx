@@ -78,7 +78,7 @@ export default function StaffAndCreativeTeam() {
         />
         <TeamMemberCard
           name="Julien"
-          role="Vice President"
+          role="Vice President -- OW Coordinator"
           icon="/staff/julien.png"
         />
         <TeamMemberCard
@@ -127,19 +127,9 @@ export default function StaffAndCreativeTeam() {
           icon="/rainbow-six-siege/oreo.png"
         />
         <TeamMemberCard
-          name="Faith~"
-          role="CS2 Coordinator"
-          icon="/staff/faith.png"
-        />
-        <TeamMemberCard
           name="Yellcwroses"
           role="Val Coordinator"
           icon="/staff/yellcwroses.png"
-        />
-        <TeamMemberCard
-          name="Zane"
-          role="LoL Coordinator"
-          icon="/staff/zane.png"
         />
       </div>
     </div>
