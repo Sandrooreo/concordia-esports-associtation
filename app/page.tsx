@@ -58,10 +58,15 @@ export default function Home() {
               become part of our competitive and dynamic esports community!
             </li>
             <li>
-              <strong>ETS R6 LAN:</strong> Announcement TBD
+              <strong>ETS R6 LAN (Oct 5 - 6 th):</strong> École de Technologie Supérieure is running a 
+              small Montreal based Rainbow Six Siege LAN with Concordia, McGill and UDEM. Last year they
+              hosted a show match, and this year they're holding a bigger and better 2 day event.
+              Come watch live or on the ETS Twitch
             </li>
             <li>
-              <strong>Montreal R6 Major:</strong> Announcement TBD
+              <strong>Montreal R6 Major (Nov 7 - 17th):</strong> Montreal is hosting the Rainbow Six Major
+              in Verdun Auditorium. Several of the Concordia R6 players and some other staff and members 
+              will be in attendance. If you would like to join some friends in watching Esports live.
             </li>
           </ul>
         </CardContent>

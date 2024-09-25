@@ -131,7 +131,21 @@ export default function StaffAndCreativeTeam() {
           role="Val Coordinator"
           icon="/staff/yellcwroses.png"
         />
+         <TeamMemberCard
+          name="Kewaninou"
+          role="CS2 Coordinator"
+          icon="/staff/kewaninou.png"
+        />
       </div>
+
+      <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Production</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+      <TeamMemberCard
+          name="Kyoshi"
+          role="Rainbow Caster"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
+        </div>
     </div>
   );
 }

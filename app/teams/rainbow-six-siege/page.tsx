@@ -91,13 +91,8 @@ export default function RainbowSixSiegePage() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Oreo"
-          role="Team Captain -- Coordinator"
+          role="Team Captain"
           icon="/rainbow-six-siege/oreo.png"
-        />
-        <TeamMemberCard
-          name="Tranmaxpower"
-          role="Entry Fragger"
-          icon="/rainbow-six-siege/tran.png"
         />
         <TeamMemberCard
           name="Cey"
@@ -130,6 +125,11 @@ export default function RainbowSixSiegePage() {
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Gold</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+      <TeamMemberCard
+          name="Tranmaxpower"
+          role="Entry Fragger"
+          icon="/rainbow-six-siege/tran.png"
+        />
         <TeamMemberCard
           name="Bandojay"
           role="Flex-Support"
@@ -139,6 +139,11 @@ export default function RainbowSixSiegePage() {
           name="Kyoshi"
           role="Support"
           icon="/rainbow-six-siege/kyoshi.png"
+        />
+        <TeamMemberCard
+          name="Rymfk"
+          role="Support"
+          icon="/rainbow-six-siege/rymfk.png"
         />
       </div>
     </div>
