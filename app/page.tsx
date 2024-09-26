@@ -93,7 +93,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Learn more about our {team.name} team and their achievements.
+                  Learn more about our {team.name} team.
                 </p>
               </CardContent>
             </Card>
