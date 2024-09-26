@@ -60,7 +60,7 @@ export default function Home() {
             <li>
               <strong>ETS R6 LAN (Oct 5 - 6 th):</strong> École de Technologie Supérieure is running a 
               small Montreal based Rainbow Six Siege LAN with Concordia, McGill and UDEM. Last year they
-              hosted a show match, and this year they're holding a bigger and better 2 day event.
+              hosted a show match, and this year they&apos;re holding a bigger and better 2 day event.
               Come watch live or on the ETS Twitch
             </li>
             <li>
