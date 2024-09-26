@@ -59,6 +59,80 @@ export default function RocketLeaguePage() {
         </CardContent>
       </Card>
 
+
+      <h2 className="text-2xl font-semibold mb-4">Concordia Gold</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Bardo"
+          role="Team Captain"
+          icon="/rocket-league/bardo.png"
+        />
+        <TeamMemberCard
+          name="MakandCheese"
+          role="Player"
+          icon="/rocket-league/mak.png"
+        />
+        <TeamMemberCard
+          name="Naro"
+          role="Player"
+          icon="/rocket-league/naro.png"
+        />
+        <TeamMemberCard
+          name="Clumsy"
+          role="Sub"
+          icon="/rocket-league/Clumsy.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Hayashi"
+          role="Team Captain"
+          icon="/rocket-league/hayashi.png"
+        />
+        <TeamMemberCard
+          name="Jacquez"
+          role="Player"
+          icon="/rocket-league/jacquez.png"
+        />
+        <TeamMemberCard
+          name="Rubello"
+          role="Player"
+          icon="/rocket-league/Rubello.png"
+        />
+        <TeamMemberCard
+          name="Shy"
+          role="Sub"
+          icon="/rocket-league/Shy.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+      <h2 className="text-2xl font-semibold mb-4">Concordia Maroon</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Breadmonke"
+          role="Team Captain"
+          icon="/rocket-league/breadmonke.png"
+        />
+        <TeamMemberCard
+          name="Flippy"
+          role="Player"
+          icon="/rocket-league/flippy.png"
+        />
+        <TeamMemberCard
+          name="LilGoatie"
+          role="Player"
+          icon="/rocket-league/lilgoatie.png"
+        />
+        <TeamMemberCard
+          name="Mowfling"
+          role="Sub"
+          icon="/rocket-league/Mowfling.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
