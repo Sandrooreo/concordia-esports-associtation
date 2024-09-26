@@ -80,7 +80,7 @@ export default function RocketLeaguePage() {
         <TeamMemberCard
           name="Clumsy"
           role="Sub"
-          icon="/rocket-league/Clumsy.png"
+          icon="/rocket-league/clumsy.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -100,12 +100,12 @@ export default function RocketLeaguePage() {
         <TeamMemberCard
           name="Rubello"
           role="Player"
-          icon="/rocket-league/Rubello.png"
+          icon="/rocket-league/rubello.png"
         />
         <TeamMemberCard
           name="Shy"
           role="Sub"
-          icon="/rocket-league/Shy.png"
+          icon="/rocket-league/shy.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -129,7 +129,7 @@ export default function RocketLeaguePage() {
         <TeamMemberCard
           name="Mowfling"
           role="Sub"
-          icon="/rocket-league/Mowfling.png"
+          icon="/rocket-league/mowfling.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
