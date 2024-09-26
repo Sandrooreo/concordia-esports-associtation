@@ -142,8 +142,13 @@ export default function StaffAndCreativeTeam() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
       <TeamMemberCard
           name="Kyoshi"
-          role="Rainbow Caster"
+          role="Rainbow Six Caster"
           icon="/rainbow-six-siege/kyoshi.png"
+        />
+        <TeamMemberCard
+          name="Lt. Leah"
+          role="Rainbow Six Observer"
+          icon="/staff/leah.png"
         />
         </div>
     </div>
