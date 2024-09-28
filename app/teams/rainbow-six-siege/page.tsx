@@ -24,11 +24,15 @@ export default function RainbowSixSiegePage() {
           <ul className="list-disc pl-5">
             <li>
               <strong>CR6 (Sept 21 - Early December):</strong> A long-standing
-              collegiate league in NA. One match per week, Default time Fridays 7PM EST.
+              collegiate league in NA. One match per week, Default time Fridays 8PM EST.
             </li>
             <li>
               <strong>CCL (Sept 16th - Nov 25th):</strong> A new collegiate
-              Canadian league. One match per week, Default time Mondays 7PM EST.
+              Canadian league. One match per week, Default time Mondays 8PM EST.
+            </li>
+            <li>
+              <strong>Rally Cry (Sept 28th - Nov 10th):</strong> A Ubisoft sponsored
+              collegiate league. One match per week, Default time Sundays 3PM EST.
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -131,6 +135,11 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/tran.png"
         />
         <TeamMemberCard
+          name="OMIOZZ"
+          role="Support"
+          icon="/rainbow-six-siege/oz.png"
+        />
+        <TeamMemberCard
           name="Bandojay"
           role="Flex-Support"
           icon="/rainbow-six-siege/bandojay.png"
@@ -141,9 +150,14 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/kyoshi.png"
         />
         <TeamMemberCard
-          name="Rymfk"
+          name="RYMFK"
           role="Support"
           icon="/rainbow-six-siege/rymfk.png"
+        />
+        <TeamMemberCard
+          name="Seephoun"
+          role="Entry Fragger"
+          icon="/rainbow-six-siege/seephoun.png"
         />
       </div>
     </div>
