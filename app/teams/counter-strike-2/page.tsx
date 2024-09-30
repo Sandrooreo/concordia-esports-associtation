@@ -22,12 +22,9 @@ export default function CounterStrike2() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>TBD:</strong>
-              <br></br>---
+              <strong>ESEA: Season 51 Open Division</strong>
               <ul className="list-disc pl-5">
-                <li>TBD -{">"} (insert date) </li>
-                <li>TBD -{">"} (insert date) </li>
-                <li>TBD -{">"} (insert date) </li>
+                <li>Season 51 - Open Division -{">"} (Oct 6 - Nov 24) </li>
               </ul>
             </li>
             <li>
@@ -62,6 +59,50 @@ export default function CounterStrike2() {
           </Link>
         </CardContent>
       </Card>
+      
+      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+      <TeamMemberCard
+          name="Kewaninou"
+          role="Captain"
+          icon="/staff/kewaninou.png"
+        />
+        <TeamMemberCard
+          name="Kyoshi"
+          role="AWP"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
+        <TeamMemberCard
+          name="minewood"
+          role="AWP"
+          icon="/cs2/minewood.png"
+        />
+        <TeamMemberCard
+          name="KazuyA"
+          role="Support"
+          icon="/cs2/kazuya.png"
+        />
+        <TeamMemberCard
+          name="Cortal"
+          role="IGL"
+          icon="/cs2/cortal.png"
+        />
+        <TeamMemberCard
+          name="Ecksdee"
+          role="Sub"
+          icon="/cs2/ecksdee.png"
+        />
+        <TeamMemberCard
+          name="Soupy Assistant"
+          role="Sub"
+          icon="/cs2/soupy.png"
+        />
+        <TeamMemberCard
+          name="Erik"
+          role="Sub"
+          icon="/cs2/erik.png"
+        />
+      </div>
     </div>
   );
 }

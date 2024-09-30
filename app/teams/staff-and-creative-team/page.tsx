@@ -32,7 +32,7 @@ export default function StaffAndCreativeTeam() {
             </li>
             <li>
               <strong>Production Team:</strong> Our group of Production Team
-              is focused on providing assitance to streaming, additional graphic
+              is focused on providing assistance to streaming, additional graphic
               design and a multitude of technical support. 
             </li>
           </ul>
