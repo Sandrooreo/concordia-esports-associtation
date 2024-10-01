@@ -45,7 +45,7 @@ const Navbar = () => {
   const teamLinks = [
     { name: "Staff and Creative Team", url: "/teams/staff-and-creative-team" },
     { name: "Apex", url: "/teams/apex-legends" },
-    { name: "Counter Strike 2", url: "/teams/cs2" },
+    { name: "Counter Strike 2", url: "/teams/counter-strike-2" },
     { name: "Deadlock", url: "/teams/deadlock" },
     { name: "Dota 2", url: "/teams/dota2" },
     { name: "League of Legends", url: "/teams/league-of-legends" },
