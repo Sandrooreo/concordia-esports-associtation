@@ -60,11 +60,11 @@ export default function CounterStrike2() {
         </CardContent>
       </Card>
       
-      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
+      <h2 className="text-2xl font-semibold mb-4">Concordia Blue</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
       <TeamMemberCard
           name="Kewaninou"
-          role="Captain"
+          role="Captain -- Rifler"
           icon="/staff/kewaninou.png"
         />
         <TeamMemberCard
@@ -74,18 +74,47 @@ export default function CounterStrike2() {
         />
         <TeamMemberCard
           name="minewood"
-          role="AWP"
+          role="Rifler -- Lurker"
           icon="/cs2/minewood.png"
         />
         <TeamMemberCard
           name="KazuyA"
-          role="Support"
+          role="Entry Fragger"
           icon="/cs2/kazuya.png"
         />
         <TeamMemberCard
           name="Cortal"
-          role="IGL"
+          role="IGL -- Rifler"
           icon="/cs2/cortal.png"
+        /> </div>
+
+
+        <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Red</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Cortal"
+          role="Captain -- IGL -- Rifler"
+          icon="/cs2/cortal.png"
+        />
+        <TeamMemberCard
+          name="Mario"
+          role="Rifler -- Lurk"
+          icon="/cs2/mariouch.png"
+        />
+        <TeamMemberCard
+          name="KazuyA"
+          role="Entry Fragger"
+          icon="/cs2/kazuya.png"
+        />
+        <TeamMemberCard
+          name="Gwigs"
+          role="AWP -- IGL"
+          icon="/cs2/gwigs.png"
+        />
+        <TeamMemberCard
+          name="PAIN"
+          role="AWP -- Support"
+          icon="/cs2/pain.png"
         />
         <TeamMemberCard
           name="Ecksdee"
@@ -101,6 +130,11 @@ export default function CounterStrike2() {
           name="Erik"
           role="Sub"
           icon="/cs2/erik.png"
+        />
+        <TeamMemberCard
+          name="Tobes"
+          role="Sub"
+          icon="/cs2/tobes.png"
         />
       </div>
     </div>
