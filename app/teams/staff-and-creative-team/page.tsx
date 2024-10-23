@@ -136,6 +136,11 @@ export default function StaffAndCreativeTeam() {
           role="CS2 Coordinator"
           icon="/staff/kewaninou.png"
         />
+        <TeamMemberCard
+        name="Hydron"
+        role="LoL Coordinator"
+        icon="/staff/hydron.png"
+      />
       </div>
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Production</h2>
