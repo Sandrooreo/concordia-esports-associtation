@@ -82,7 +82,7 @@ export default function LeagueOfLegendsPage() {
         <TeamMemberCard
           name="Ngnarios"
           role="Jungle"
-          icon="/league-of-legends/Ngnarios.png"
+          icon="/league-of-legends/ngnarios.png"
         />
         <TeamMemberCard
           name="Beelzebub"
