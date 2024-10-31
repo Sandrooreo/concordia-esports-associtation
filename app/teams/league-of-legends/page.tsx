@@ -41,6 +41,101 @@ export default function LeagueOfLegendsPage() {
           </Link>
         </CardContent>
       </Card>
+
+      <h2 className="text-2xl font-semibold mb-4">Concordia Gold</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Tweedledum"
+          role="Top"
+          icon="/league-of-legends/tweedledum.png"
+        />
+        <TeamMemberCard
+          name="Impowerful"
+          role="Jungle"
+          icon="/league-of-legends/impowerful.png"
+        />
+        <TeamMemberCard
+          name="Hellobacon"
+          role="Mid"
+          icon="/league-of-legends/hellobacon.png"
+        />
+        <TeamMemberCard
+          name="MeAndOnlyMe"
+          role="Adc"
+          icon="/league-of-legends/meandonlyme.png"
+        />
+        <TeamMemberCard
+          name="NightKnight"
+          role="Support"
+          icon="/league-of-legends/nightknight.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="Kaiguy"
+          role="Top"
+          icon="/league-of-legends/kaiguy.png"
+        />
+        <TeamMemberCard
+          name="Ngnarios"
+          role="Jungle"
+          icon="/league-of-legends/Ngnarios.png"
+        />
+        <TeamMemberCard
+          name="Beelzebub"
+          role="Mid"
+          icon="/league-of-legends/beelzebub.png"
+        />
+        <TeamMemberCard
+          name="3MNiM3"
+          role="Adc"
+          icon="/league-of-legends/3mnim3.png"
+        />
+        <TeamMemberCard
+          name="Arcade"
+          role="Support"
+          icon="/league-of-legends/arcade.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
+
+      <h2 className="text-2xl font-semibold mb-4">Concordia Maroon</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+        <TeamMemberCard
+          name="HundchenTanque"
+          role="Top"
+          icon="/league-of-legends/hundchentanque.png"
+        />
+        <TeamMemberCard
+          name="Bhav"
+          role="Jungle"
+          icon="/league-of-legends/bhav.png"
+        />
+        <TeamMemberCard
+          name="A Pikmen"
+          role="Mid"
+          icon="/league-of-legends/apikmen.png"
+        />
+        <TeamMemberCard
+          name="KatieKatelin"
+          role="Adc"
+          icon="/league-of-legends/katie.png"
+        />
+        <TeamMemberCard
+          name="NotLiana"
+          role="Support"
+          icon="/league-of-legends/notliana.png"
+        />
+        <TeamMemberCard
+          name="Arishu"
+          role="Sub"
+          icon="/league-of-legends/arishu.png"
+        />
+        {/* Add more TeamMemberCards as needed */}
+      </div>
     </div>
   );
 }
