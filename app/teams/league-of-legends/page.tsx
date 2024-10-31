@@ -50,9 +50,9 @@ export default function LeagueOfLegendsPage() {
           icon="/league-of-legends/tweedledum.png"
         />
         <TeamMemberCard
-          name="Impowerful"
+          name="Tweedledee"
           role="Jungle"
-          icon="/league-of-legends/impowerful.png"
+          icon="/league-of-legends/tweedledee.png"
         />
         <TeamMemberCard
           name="Hellobacon"
