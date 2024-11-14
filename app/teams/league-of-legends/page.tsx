@@ -95,7 +95,7 @@ export default function LeagueOfLegendsPage() {
         <TeamMemberCard
           name="Akaen"
           role="Support"
-          icon="/league-of-legends/Akaen.png"
+          icon="/league-of-legends/akaen.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
