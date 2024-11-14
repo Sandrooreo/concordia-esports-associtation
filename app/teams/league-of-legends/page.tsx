@@ -14,9 +14,30 @@ export default function LeagueOfLegendsPage() {
           <CardTitle className="text-xl">About Our Team</CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="mb-4">
-            League of Legends is one of CeSA&aposs largest games.
+        <p className="mb-4">
+            The Concordia LoL teams are competitive League of Legends teams
+            representing Concordia University. One of the largest groups of 
+            players hosting 3 teams within Concordia. One of the most populated
+            Esport games world wide of massive popularity, it shows within Concordia.
+            We love team camaraderie and fun experiences, along with the enjoyment of
+            competitive gameplay against many other University teams nationwide. 
           </p>
+          <h3 className="font-semibold mb-2">Competition Schedule</h3>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>University Esports NA (CLOL East) (Jan 25th - Feb 22nd):</strong> A long-standing
+              collegiate league in NA. One match per week, Default time Saturday 3PM EST.
+            </li>
+            <li>
+              <strong>Esports Canada PS Nationals (Nov 25th - Dec 1st):</strong> A new collegiate
+              Canadian Nationals Tournament. Tuesday, Thursday and Friday Groups (Round 1, 2 and 3 respectively
+              with top team from each group going into playoff bracket on Saturday 30th and Sunday 1st).
+            </li>
+            <li>
+              <strong>Open tournaments:</strong> Participation depends on team
+              availability.
+            </li>
+          </ul>
         </CardContent>
       </Card>
 
@@ -25,11 +46,18 @@ export default function LeagueOfLegendsPage() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
-          <h3 className="font-semibold mb-2">Who are we looking for?</h3>
-          <p className="mb-4">
-            Concordia Collegiate League of Legends teams are recruiting for the
-            Fall 2024 and Winter 2025 season.
-          </p>
+        <h3 className="font-semibold mb-2">Who are we looking for?</h3>
+          <ul className="list-disc pl-5 mb-4">
+            <li>
+              Concordia students with any level of experience in LoL interested
+              in competitive play.
+            </li>
+            <li>
+              Players available for a few hours on match nights.
+            </li>
+            <li>Main roster: 3-5 nights/week availability (often after 8PM).</li>
+            <li>Substitutes: Flexible scheduling with less time commitment.</li>
+          </ul>
           <br></br>
           <Link
             href="https://forms.gle/yyk9cnHd8jqBuzaj8"
@@ -65,9 +93,9 @@ export default function LeagueOfLegendsPage() {
           icon="/league-of-legends/meandonlyme.png"
         />
         <TeamMemberCard
-          name="NightKnight"
+          name="Akaen"
           role="Support"
-          icon="/league-of-legends/nightknight.png"
+          icon="/league-of-legends/Akaen.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -98,6 +126,16 @@ export default function LeagueOfLegendsPage() {
           name="Arcade"
           role="Support"
           icon="/league-of-legends/arcade.png"
+        />
+        <TeamMemberCard
+          name="NightKnight"
+          role="Sub-Adc"
+          icon="/league-of-legends/nightknight.png"
+        />
+        <TeamMemberCard
+          name="Mr.2"
+          role="Sub-Support"
+          icon="/league-of-legends/mr2.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
