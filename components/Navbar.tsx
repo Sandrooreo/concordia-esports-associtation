@@ -46,14 +46,11 @@ const Navbar = () => {
     { name: "Staff and Creative Team", url: "/teams/staff-and-creative-team" },
     { name: "Apex", url: "/teams/apex-legends" },
     { name: "Counter Strike 2", url: "/teams/counter-strike-2" },
-    { name: "Deadlock", url: "/teams/deadlock" },
     { name: "Dota 2", url: "/teams/dota2" },
     { name: "League of Legends", url: "/teams/league-of-legends" },
     { name: "Overwatch 2", url: "/teams/overwatch-2" },
     { name: "Rainbow Six: Siege", url: "/teams/rainbow-six-siege" },
     { name: "Rocket League", url: "/teams/rocket-league" },
-    { name: "Smash Ultimate", url: "/teams/smash-ultimate" },
-    { name: "Specter Divide", url: "/teams/specter-divide" },
     { name: "Valorant", url: "/teams/valorant" },
   ];
 

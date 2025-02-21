@@ -13,9 +13,6 @@ const teams = [
   { name: "CS2", slug: "counter-strike-2" },
   { name: "Valorant", slug: "valorant" },
   { name: "Dota 2", slug: "dota2" },
-  { name: "Deadlock", slug: "deadlock" },
-  { name: "Smash Ultimate", slug: "smash-ultimate" },
-  { name: "Specter/Divide", slug: "specter-divide" },
 ];
 
 export default function Home() {
