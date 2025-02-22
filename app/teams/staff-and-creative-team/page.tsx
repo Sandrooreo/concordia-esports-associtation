@@ -15,10 +15,10 @@ export default function StaffAndCreativeTeam() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The CeSA staff is commited to providing a fun experience, allowing 
-            players to enjoy their time within the Concordia Esports Students 
+            The CeSA staff is commited to providing a fun experience, allowing
+            players to enjoy their time within the Concordia Esports Students
             Association. Granting them opportunities to play in various leagues,
-            competitions and tournaments across several games. 
+            competitions and tournaments across several games.
           </p>
           <h3 className="font-semibold mb-2">The Creative Team</h3>
           <ul className="list-disc pl-5">
@@ -26,14 +26,14 @@ export default function StaffAndCreativeTeam() {
               <strong>Casting and Streaming:</strong> Our Casting Team is focused
               on providing an interesting overview and enjoyable experience for all
               our listners watching our games. A play by play commentary and an
-              ever expanding addition to the CeSA world. 
+              ever expanding addition to the CeSA world.
               <ul className="list-disc pl-5">
               </ul>
             </li>
             <li>
               <strong>Production Team:</strong> Our group of Production Team
               is focused on providing assistance to streaming, additional graphic
-              design and a multitude of technical support. 
+              design and a multitude of technical support.
             </li>
           </ul>
         </CardContent>
@@ -48,17 +48,17 @@ export default function StaffAndCreativeTeam() {
           <ul className="list-disc pl-5 mb-4">
             <li>
               Concordia students with a desire to get into the world of content
-              and esports. 
+              and esports.
             </li>
             <li>
-              We are looking for casters, streamers, and other staff members 
+              We are looking for casters, streamers, and other staff members
               dedicated to the production side of esports.
             </li>
             <li>Main importance is availbility for casting on default days of
               participating leagues and tournaments
             </li>
-            <li>Small bonus if proficient in knowledge of one or more CeSA 
-              participating games. 
+            <li>Small bonus if proficient in knowledge of one or more CeSA
+              participating games.
             </li>
           </ul>
           <Link href="https://forms.gle/MqS9sFqufGYrPQr69" target="_blank">
@@ -71,15 +71,15 @@ export default function StaffAndCreativeTeam() {
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Staff</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-      <TeamMemberCard
-          name="Litchi"
-          role="President"
-          icon="/staff/litchi.png"
-        />
         <TeamMemberCard
           name="Julien"
-          role="Vice President -- OW Coordinator"
+          role="President -- OW Coordinator"
           icon="/staff/julien.png"
+        />
+        <TeamMemberCard
+          name="Litchi"
+          role="Vice President"
+          icon="/staff/litchi.png"
         />
         <TeamMemberCard
           name="RexO"
@@ -131,31 +131,41 @@ export default function StaffAndCreativeTeam() {
           role="Val Coordinator"
           icon="/staff/yellcwroses.png"
         />
-         <TeamMemberCard
+        <TeamMemberCard
           name="Kewaninou"
           role="CS2 Coordinator"
           icon="/staff/kewaninou.png"
         />
         <TeamMemberCard
-        name="Hydron"
-        role="LoL Coordinator"
-        icon="/staff/hydron.png"
-      />
+          name="Hydron"
+          role="LoL Coordinator"
+          icon="/staff/hydron.png"
+        />
+        <TeamMemberCard
+          name="BatDashFlap"
+          role="OW Coordinator"
+          icon="/rainbow-six-siege/bat.png"
+        />
+        <TeamMemberCard
+          name="Kajiida"
+          role="Apex Coordinator"
+          icon="/apex/kajiida.png"
+        />
+        <TeamMemberCard
+          name="Kyoshi"
+          role="R6 Coordinator"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
       </div>
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Production</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-      <TeamMemberCard
-          name="Kyoshi"
-          role="Rainbow Six Caster"
-          icon="/rainbow-six-siege/kyoshi.png"
-        />
         <TeamMemberCard
           name="Lt. Leah"
           role="Rainbow Six Observer"
           icon="/staff/leah.png"
         />
-        </div>
+      </div>
     </div>
   );
 }

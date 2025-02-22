@@ -170,7 +170,7 @@ export default function RainbowSixSiegePage() {
       <TeamMemberCard
           name="Rango"
           role="IGL"
-          icon="/rainbow-six-siege/Rango.png"
+          icon="/rainbow-six-siege/rango.png"
         />
         <TeamMemberCard
           name="BatDashFlap"
