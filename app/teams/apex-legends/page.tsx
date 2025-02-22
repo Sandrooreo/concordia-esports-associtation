@@ -17,18 +17,13 @@ export default function ApexLegends() {
           <p className="mb-4">
             The CeSA Apex Legends squad is a competitive Apex team that represents
             Concordia in leagues and competitions. We tend to play in collegiate
-            leagues and other competitions and are always looking for players.
+            leagues and other competitions and are always looking for players and
+            coaches to further our team and friendships.
           </p>
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>TBD:</strong>
-              <br></br>---
-              <ul className="list-disc pl-5">
-                <li>TBD -{">"} (insert dates) </li>
-                <li>TBD -{">"} (insert dates) </li>
-                <li>TBD -{">"} (insert dates) </li>
-              </ul>
+              <strong>Octane Collegiate Season 3: </strong> Stage 2
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -64,6 +59,17 @@ export default function ApexLegends() {
           </Link>
         </CardContent>
       </Card>
+
+       <h2 className="text-2xl font-semibold mb-4">Results</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+              <ResultCard
+                tournamentName="Octane Collegiate Series: Season 3 Stage 1"
+                logo="/apex/octane.png"
+                result="Open Division"
+                link="https://liquipedia.net/apexlegends/Octane_Collegiate/Season_3/Stage_1"
+              />
     </div>
+    {/* Add more ResultCards as needed */}
+    </div>    
   );
 }
