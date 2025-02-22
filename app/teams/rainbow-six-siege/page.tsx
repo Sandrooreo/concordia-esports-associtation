@@ -7,7 +7,10 @@ import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 export default function RainbowSixSiegePage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Rainbow Six: Siege Team</h1>
+      <h1 className="text-4xl font-bold mb-8 flex items-center">
+        <img src="/games/rainbow-six-siege.png" alt="Rainbow Six: Siege Logo" className="w-14 h-14 mr-3" />
+        Rainbow Six: Siege Team
+      </h1>
 
       <Card className="mb-8">
         <CardHeader>
@@ -142,7 +145,7 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/black.png"
         />
         <TeamMemberCard
-          name="BallsUnlisted"
+          name="BallsUnited"
           role="Support"
           icon="/rainbow-six-siege/ballsunlisted.png"
         />
@@ -162,11 +165,6 @@ export default function RainbowSixSiegePage() {
           role="Captain"
           icon="/rainbow-six-siege/kyoshi.png"
         />
-        <TeamMemberCard
-          name="Shin"
-          role="Coach"
-          icon="/rainbow-six-siege/shin.png"
-        />
       <TeamMemberCard
           name="Rango"
           role="IGL"
@@ -178,7 +176,7 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/bat.png"
         />
         <TeamMemberCard
-          name="Seephoun"
+          name="Doc"
           role="Entry"
           icon="/rainbow-six-siege/seephoun.png"
         />
