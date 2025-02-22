@@ -8,7 +8,7 @@ export default function ApexLegends() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/apex-legends.png" alt="Apex Legends Logo" className="w-10 h-10 mr-3" />
+        <img src="/games/apex-legends.png" alt="Apex Legends Logo" className="w-12 h-12 mr-3" />
         Apex Legends Team
       </h1>
 
@@ -73,6 +73,7 @@ export default function ApexLegends() {
               />
     {/* Add more ResultCards as needed */}
     </div>  
+    
     <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
             <div className="bg-black rounded-xl p-2">
               <img src="/concordia-gold.png" alt="Concordia Gold Logo" className="w-8 h-8" />

@@ -8,7 +8,7 @@ export default function RocketLeaguePage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/rocket-league.png" alt="Rocket League Logo" className="w-10 h-10 mr-3" />
+        <img src="/games/rocket-league.png" alt="Rocket League Logo" className="w-12 h-12 mr-4" />
         Rocket League Team
       </h1>
       <Card className="mb-8">

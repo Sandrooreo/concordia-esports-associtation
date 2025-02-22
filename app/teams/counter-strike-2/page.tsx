@@ -7,7 +7,10 @@ import Link from "next/link";
 export default function CounterStrike2() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Counter Strike 2 Legends Team</h1>
+      <h1 className="text-4xl font-bold mb-8 flex items-center">
+        <img src="/games/counter-strike-2.png" alt="Counter Strike Logo" className="w-12 h-12 mr-3" />
+        Counter Strike 2 Team
+      </h1>
 
       <Card className="mb-8">
         <CardHeader>
@@ -59,84 +62,66 @@ export default function CounterStrike2() {
           </Link>
         </CardContent>
       </Card>
+
+      <h2 className="text-2xl font-semibold mb-4">Results</h2>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+                    <ResultCard
+                      tournamentName="ESEA: Season 51 Open Division"
+                      logo="/cs2/esea.png"
+                      result="Open Division"
+                      link="https://www.faceit.com/en/cs2/league/ESEA%20League/a14b8616-45b9-4581-8637-4dfd0b5f6af8/e60308e0-fa19-4266-a509-aa68fcd512d9/overview"
+                    />
+          {/* Add more ResultCards as needed */}
+          </div>  
       
-      <h2 className="text-2xl font-semibold mb-4">Concordia Blue</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+            <div className="bg-black rounded-xl p-2">
+              <img src="/concordia-blue.png" alt="Concordia Blue Logo" className="w-8 h-8" />
+            </div>
+            <span className="ml-2">Concordia Blue</span>
+          </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
       <TeamMemberCard
-          name="Kewaninou"
-          role="Captain -- Rifler"
-          icon="/staff/kewaninou.png"
-        />
+          name="Cortal"
+          role="Captain"
+          icon="/cs2/cortal.png"
+        /> 
         <TeamMemberCard
-          name="Kyoshi"
+          name="KazuyA"
           role="AWP"
-          icon="/rainbow-six-siege/kyoshi.png"
-        />
-        <TeamMemberCard
-          name="minewood"
-          role="Rifler -- Lurker"
-          icon="/cs2/minewood.png"
-        />
-        <TeamMemberCard
-          name="KazuyA"
-          role="Entry Fragger"
           icon="/cs2/kazuya.png"
         />
         <TeamMemberCard
-          name="Cortal"
-          role="IGL -- Rifler"
-          icon="/cs2/cortal.png"
-        /> </div>
-
-
-        <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Red</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-        <TeamMemberCard
-          name="Cortal"
-          role="Captain -- IGL -- Rifler"
-          icon="/cs2/cortal.png"
-        />
-        <TeamMemberCard
-          name="Mario"
-          role="Rifler -- Lurk"
-          icon="/cs2/mariouch.png"
-        />
-        <TeamMemberCard
-          name="KazuyA"
-          role="Entry Fragger"
-          icon="/cs2/kazuya.png"
+          name="Tobes"
+          role="Rifler"
+          icon="/cs2/tobes.png"
         />
         <TeamMemberCard
           name="Gwigs"
-          role="AWP -- IGL"
+          role="IGL"
           icon="/cs2/gwigs.png"
         />
         <TeamMemberCard
           name="PAIN"
-          role="AWP -- Support"
+          role="Rifler"
           icon="/cs2/pain.png"
         />
         <TeamMemberCard
-          name="Ecksdee"
+          name="Kewaninou"
           role="Sub"
-          icon="/cs2/ecksdee.png"
+          icon="/staff/kewaninou.png"
         />
         <TeamMemberCard
-          name="Soupy Assistant"
+          name="Mario"
           role="Sub"
-          icon="/cs2/soupy.png"
+          icon="/cs2/mariouch.png"
         />
         <TeamMemberCard
-          name="Erik"
+          name="Snor"
           role="Sub"
-          icon="/cs2/erik.png"
+          icon="/cs2/snor.png"
         />
-        <TeamMemberCard
-          name="Tobes"
-          role="Sub"
-          icon="/cs2/tobes.png"
-        />
-      </div>
+        </div>
     </div>
   );
 }

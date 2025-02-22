@@ -7,7 +7,10 @@ import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 export default function DotaPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">Dota Team</h1>
+      <h1 className="text-4xl font-bold mb-8 flex items-center">
+        <img src="/games/dota2.png" alt="Dota 2 Logo" className="w-12 h-12 mr-4" />
+        Dota 2 Team
+      </h1>
 
       <Card className="mb-8">
         <CardHeader>
