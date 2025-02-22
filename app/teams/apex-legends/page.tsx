@@ -68,8 +68,52 @@ export default function ApexLegends() {
                 result="Open Division"
                 link="https://liquipedia.net/apexlegends/Octane_Collegiate/Season_3/Stage_1"
               />
-    </div>
     {/* Add more ResultCards as needed */}
-    </div>    
+    </div>  
+    <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+            <div className="bg-black rounded-xl p-2">
+              <img src="/concordia-gold.png" alt="Concordia Gold Logo" className="w-8 h-8" />
+            </div>
+            <span className="ml-2">Concordia Genesis Gold</span>
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+            <TeamMemberCard
+              name="Kajiida"
+              role="Captain"
+              icon="/apex/kajiida.png"
+            />
+            <TeamMemberCard
+              name="Kakubacon"
+              icon="/apex/kakubacon.png"
+            />
+            <TeamMemberCard
+              name="TuxHood"
+              icon="/apex/tuxhood.png"
+            />
+            {/* Add more TeamMemberCards as needed */}
+          </div>
+    
+    
+          <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+            <div className="bg-black rounded-xl p-2">
+              <img src="/concordia.png" alt="Concordia Red Logo" className="w-8 h-8" />
+            </div>
+            <span className="ml-2">Concordia Genesis Red</span>
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+          <TeamMemberCard
+              name="Rocky"
+              icon="/apex/rocky.png"
+            />
+            <TeamMemberCard
+              name="ItsCamal"
+              icon="/apex/itscamal.png"
+            />
+          <TeamMemberCard
+              name="Krash"
+              icon="/apex/krash.png"
+            />
+          </div>
+        </div>
   );
 }
