@@ -25,10 +25,13 @@ export default function CounterStrike2() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>ESEA: Season 51 Open Division</strong>
+              <strong>ESEA: Season 51 Open Division 9 - 10</strong>
               <ul className="list-disc pl-5">
-                <li>Season 51 - Open Division -{">"} (Oct 6 - Nov 24) </li>
+                <li>Season 52 - Open Division -{">"} (January 13th - March 2nd + Playoffs) </li>
               </ul>
+            </li>
+            <li>
+              <strong>Frostfire 2025 LAN:</strong> January 18th 2025
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -70,6 +73,12 @@ export default function CounterStrike2() {
                       logo="/cs2/esea.png"
                       result="Open Division"
                       link="https://www.faceit.com/en/cs2/league/ESEA%20League/a14b8616-45b9-4581-8637-4dfd0b5f6af8/e60308e0-fa19-4266-a509-aa68fcd512d9/overview"
+                    />
+                    <ResultCard
+                      tournamentName="Frostfire 2025 LAN"
+                      logo="/cs2/frostfire2025.png"
+                      result="3rd"
+                      link="https://www.start.gg/tournament/frostfire-2025-1/event/counter-strike-2"
                     />
           {/* Add more ResultCards as needed */}
           </div>  
