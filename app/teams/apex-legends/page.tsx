@@ -84,10 +84,12 @@ export default function ApexLegends() {
             />
             <TeamMemberCard
               name="Kakubacon"
+              role="Player"
               icon="/apex/kakubacon.png"
             />
             <TeamMemberCard
               name="TuxHood"
+              role="Player"
               icon="/apex/tuxhood.png"
             />
             {/* Add more TeamMemberCards as needed */}
@@ -103,14 +105,17 @@ export default function ApexLegends() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
           <TeamMemberCard
               name="Rocky"
+              role="Player"
               icon="/apex/rocky.png"
             />
             <TeamMemberCard
               name="ItsCamal"
+              role="Player"
               icon="/apex/itscamal.png"
             />
           <TeamMemberCard
               name="Krash"
+              role="Player"
               icon="/apex/krash.png"
             />
           </div>
