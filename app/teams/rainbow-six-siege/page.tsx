@@ -115,11 +115,6 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/oreo.png"
         />
         <TeamMemberCard
-          name="Globby"
-          role="Coach"
-          icon="/rainbow-six-siege/globby.png"
-        />
-        <TeamMemberCard
           name="Cey"
           role="Captain"
           icon="/rainbow-six-siege/ceybae.png"
@@ -148,6 +143,11 @@ export default function RainbowSixSiegePage() {
           name="BallsUnited"
           role="Support"
           icon="/rainbow-six-siege/ballsunlisted.png"
+        />
+        <TeamMemberCard
+          name="Lollo"
+          role="Coach"
+          icon="/rainbow-six-siege/lollo.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -189,6 +189,11 @@ export default function RainbowSixSiegePage() {
           name="Bondurs"
           role="Flex"
           icon="/rainbow-six-siege/bondurs.png"
+        />
+        <TeamMemberCard
+          name="Globby"
+          role="Coach"
+          icon="/rainbow-six-siege/globby.png"
         />
       </div>
     </div>

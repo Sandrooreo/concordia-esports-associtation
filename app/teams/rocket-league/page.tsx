@@ -110,7 +110,7 @@ export default function RocketLeaguePage() {
 
       <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
         <div className="bg-black rounded-xl p-2">
-          <img src="/concordia.png" alt="Concordia Burgundy Logo" className="w-8 h-8" />
+          <img src="/concordia-burgundy.png" alt="Concordia Burgundy Logo" className="w-8 h-8" />
         </div>
         <span className="ml-2">Concordia Burgundy</span>
       </h2>

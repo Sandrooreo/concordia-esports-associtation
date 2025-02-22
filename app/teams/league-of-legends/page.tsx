@@ -7,7 +7,10 @@ import TeamMemberCard from "@/components/Cards/TeamMemberCard";
 export default function LeagueOfLegendsPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-4xl font-bold mb-8">League of Legends Team</h1>
+      <h1 className="text-4xl font-bold mb-8 flex items-center">
+        <img src="/games/league-of-legends.png" alt="League of Legends Logo" className="w-14 h-14 mr-3" />
+        League of Legends Team
+      </h1>
 
       <Card className="mb-8">
         <CardHeader>
@@ -57,6 +60,8 @@ export default function LeagueOfLegendsPage() {
             </li>
             <li>Main roster: 3-5 nights/week availability (often after 8PM).</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
+            <li>Coaches: Some level of game knowledege and ability to assist
+              players through game situations.</li>
           </ul>
           <br></br>
           <Link
@@ -70,7 +75,12 @@ export default function LeagueOfLegendsPage() {
         </CardContent>
       </Card>
 
-      <h2 className="text-2xl font-semibold mb-4">Concordia Gold</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+        <div className="bg-black rounded-xl p-2">
+          <img src="/concordia-gold.png" alt="Concordia Gold Logo" className="w-8 h-8" />
+        </div>
+        <span className="ml-2">Concordia Gold</span>
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Tweedledum"
@@ -83,9 +93,9 @@ export default function LeagueOfLegendsPage() {
           icon="/league-of-legends/tweedledee.png"
         />
         <TeamMemberCard
-          name="Hellobacon"
+          name="Beelzebub"
           role="Mid"
-          icon="/league-of-legends/hellobacon.png"
+          icon="/league-of-legends/beelzebub.png"
         />
         <TeamMemberCard
           name="MeAndOnlyMe"
@@ -97,10 +107,20 @@ export default function LeagueOfLegendsPage() {
           role="Support"
           icon="/league-of-legends/akaen.png"
         />
+        <TeamMemberCard
+          name="Hellobacon"
+          role="Sub"
+          icon="/league-of-legends/hellobacon.png"
+        />
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Concordia Burgundy</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+        <div className="bg-black rounded-xl p-2">
+          <img src="/concordia-burgundy.png" alt="Concordia Burgundy Logo" className="w-8 h-8" />
+        </div>
+        <span className="ml-2">Concordia Burgundy</span>
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Kaiguy"
@@ -113,9 +133,9 @@ export default function LeagueOfLegendsPage() {
           icon="/league-of-legends/ngnarios.png"
         />
         <TeamMemberCard
-          name="Beelzebub"
+          name="NightKnight"
           role="Mid"
-          icon="/league-of-legends/beelzebub.png"
+          icon="/league-of-legends/nightknight.png"
         />
         <TeamMemberCard
           name="3MNiM3"
@@ -128,19 +148,19 @@ export default function LeagueOfLegendsPage() {
           icon="/league-of-legends/arcade.png"
         />
         <TeamMemberCard
-          name="NightKnight"
-          role="Sub-Adc"
-          icon="/league-of-legends/nightknight.png"
-        />
-        <TeamMemberCard
           name="Mr.2"
-          role="Sub-Support"
+          role="Sub"
           icon="/league-of-legends/mr2.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Concordia Maroon</h2>
+      <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
+        <div className="bg-black rounded-xl p-2">
+          <img src="/concordia.png" alt="Concordia Maroon Logo" className="w-8 h-8" />
+        </div>
+        <span className="ml-2">Concordia Maroon</span>
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="HundchenTanque"
@@ -149,13 +169,8 @@ export default function LeagueOfLegendsPage() {
         />
         <TeamMemberCard
           name="Bhav"
-          role="Jungle"
-          icon="/league-of-legends/bhav.png"
-        />
-        <TeamMemberCard
-          name="A Pikmen"
           role="Mid"
-          icon="/league-of-legends/apikmen.png"
+          icon="/league-of-legends/bhav.png"
         />
         <TeamMemberCard
           name="KatieKatelin"
@@ -169,8 +184,13 @@ export default function LeagueOfLegendsPage() {
         />
         <TeamMemberCard
           name="Arishu"
-          role="Sub"
+          role="Jungle"
           icon="/league-of-legends/arishu.png"
+        />
+        <TeamMemberCard
+          name="Nicknack"
+          role="Sub"
+          icon="/rainbow-six-siege/nicknack.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
