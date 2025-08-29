@@ -116,9 +116,9 @@ export default function RocketLeaguePage() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
-          name="Jacquez"
+          name="Jacques_Squoooiize"
           role="Team Captain"
-          icon="/rocket-league/jacquez.png"
+          icon="/staff/jacquez.png"
         />
         <TeamMemberCard
           name="Deadly Marly"

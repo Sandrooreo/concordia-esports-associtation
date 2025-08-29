@@ -27,10 +27,12 @@ export default function Home() {
         </CardHeader>
         <CardContent>
           <p>
-            The Concordia Esports Students Association (CeSA) is dedicated to fostering a
-            vibrant gaming community within Concordia University. We support
-            various competitive esports teams and organize events for casual and
-            competitive gamers alike.
+          The Concordia Esports Students Association (CeSA) is the hearbeat of Gaming at Concordia!
+          We are dedicated to building an electrifying gaming culture at within our community 
+          at Concordia University. We power up competitive teams, throw hype-filled events, and 
+          create a space where casuals and grinders alike can squad up, compete, and rep their 
+          school in style. Whether you are here to climb the ranks or just vibe with the community, 
+          CeSA is where gaming lives!
           </p>
         </CardContent>
       </Card>
@@ -43,27 +45,32 @@ export default function Home() {
         <CardContent>
           <p className="mb-4">
            Our Concordia Esports teams are gearing up for an action-packed season with a
-          lineup of exciting events! Stay connected through our social media channels 
+          lineup of exciting teams and events! Stay connected through our social media channels 
           for the latest updates and more event information. We look forward to seeing you there! 
           </p>
           <h3 className="font-semibold mb-2">The Events:</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Concordia Recruitment (Ongoing):</strong> Concordia Esports is on the lookout
-              for new talent! We&#39;re actively recruiting players for all of our teams. Click on the
-              team links below for detailed information and to access the sign-up forms. Join us and
-              become part of our competitive and dynamic esports community!
+              <strong>Concordia Recruitment (Ongoing):</strong> Concordia Esports is on the hunt for new talent! We&apos;re 
+              scouting players ready to step up and dominate on our teams. Squad up, show your skills, and leave the 
+              competition in the dust. Click on the team links below for detailed information and to access the sign-up forms.
             </li>
             <li>
-              <strong>ETS R6 LAN (Oct 5 - 6 th):</strong> École de Technologie Supérieure is running a 
-              small Montreal based Rainbow Six Siege LAN with Concordia, McGill and UDEM. Last year they
-              hosted a show match, and this year they&apos;re holding a bigger and better 2 day event.
-              Come watch live or on the ETS Twitch
+              <strong>ETS R6 LAN (TBD):</strong> École de Technologie Supérieure is running a 
+              small Montreal based Rainbow Six Siege LAN with Concordia, McGill, UDEM and some friendly Ontario schools.
+               Last year they hosted a similar event and this year they&apos;re holding a bigger and better 2 day event.
+              Come watch live at the ETS school or on the ETS Twitch!
             </li>
             <li>
-              <strong>Montreal R6 Major (Nov 7 - 17th):</strong> Montreal is hosting the Rainbow Six Major
-              in Verdun Auditorium. Several of the Concordia R6 players and some other staff and members 
-              will be in attendance. If you would like to join some friends in watching Esports live.
+              <strong>LOL Worlds 2025 (Nov 9th):</strong> League of Legends World Championships will be taking place
+              in China this year. Last Worlds we hosted a watch party on Concordia campus. Join us again this year!
+              Good food, good friends, good fun with our gaming community!
+            </li>
+            <li>
+              <strong>Other Events (TBD):</strong> Our President of Concordia Esports wants to throw some more events
+              this year, and is looking for opportunities to gather the gamers and celebrate that which brings us together!
+              If you have any ideas or know of fun events happening, let us know! And keep tabs on the discord in CLUB-ANNOUNCEMNTS 
+              for more details on our next coming events!
             </li>
           </ul>
         </CardContent>

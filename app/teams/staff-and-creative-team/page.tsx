@@ -73,12 +73,12 @@ export default function StaffAndCreativeTeam() {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Julien"
-          role="President -- OW Coordinator"
+          role="Co-President -- OW Coordinator"
           icon="/staff/julien.png"
         />
         <TeamMemberCard
           name="Litchi"
-          role="Vice President"
+          role="Welcome Bot"
           icon="/staff/litchi.png"
         />
         <TeamMemberCard
@@ -117,14 +117,19 @@ export default function StaffAndCreativeTeam() {
           icon="/staff/vifang.png"
         />
         <TeamMemberCard
+          name="Kyo"
+          role="R6 Coordinator"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
+        <TeamMemberCard
           name=":Beaver"
-          role="Admin -- RL Coordinator"
+          role="RL Coordinator"
           icon="/staff/beaver.png"
         />
         <TeamMemberCard
-          name="Oreo"
-          role="R6 Coordinator"
-          icon="/rainbow-six-siege/oreo.png"
+          name="Jacques_Squoooiize"
+          role="RL Coordinator"
+          icon="/staff/jacquez.png"
         />
         <TeamMemberCard
           name="Yellcwroses"
@@ -137,9 +142,14 @@ export default function StaffAndCreativeTeam() {
           icon="/staff/kewaninou.png"
         />
         <TeamMemberCard
-          name="Hydron"
+          name="KatieKayelin"
           role="LoL Coordinator"
-          icon="/staff/hydron.png"
+          icon="/league-of-legends/katie.png"
+        />
+        <TeamMemberCard
+          name="Arcade"
+          role="LoL Coordinator"
+          icon="/league-of-legends/arcade.png"
         />
         <TeamMemberCard
           name="BatDashFlap"
@@ -151,11 +161,6 @@ export default function StaffAndCreativeTeam() {
           role="Apex Coordinator"
           icon="/apex/kajiida.png"
         />
-        <TeamMemberCard
-          name="Kyoshi"
-          role="R6 Coordinator"
-          icon="/rainbow-six-siege/kyoshi.png"
-        />
       </div>
 
       <h2 className="text-2xl font-semibold mb-4 pt-4">Concordia Production</h2>
@@ -165,7 +170,12 @@ export default function StaffAndCreativeTeam() {
           role="Rainbow Six Observer"
           icon="/staff/leah.png"
         />
+        <TeamMemberCard
+          name="Oreo"
+          role="Website Manager -- Rainbow Six Caster"
+          icon="/rainbow-six-siege/oreo.png"
+        />
+        </div>
       </div>
-    </div>
   );
 }
