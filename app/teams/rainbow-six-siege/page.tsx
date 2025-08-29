@@ -18,20 +18,22 @@ export default function RainbowSixSiegePage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The Concordia R6 team is a competitive Rainbow Six: Siege squad
-            representing Concordia University. We have a strong track record in
-            collegiate leagues and are constantly looking to improve and expand
-            our roster with new faces and friends.
+            Join Concordia&apos;s Rainbow Six Siege Esports Team!
+             Are you a sharp strategist? A clutch master? 
+             A Siege enthusiast with the skills and mindset to compete at the next level? 
+             We&apos;re building Concordia&apos;s official Rainbow Six Siege team, and 
+             we want you on our squad. Let&apos;s breach, clear, and conquer. 
+             See you on the battlefield, Operator!
           </p>
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>CR6 (January 27th - April):</strong> A long-standing
+              <strong>CR6 (Sept 12 - Early December):</strong> A long-standing
               collegiate league in NA. One match per week, Default time Fridays 8:30PM EST.
             </li>
             <li>
-              <strong>CCL (January 27th - April):</strong> A new collegiate
-              Canadian league. One match per week, Default time Mondays 8PM EST.
+              <strong>CCL (Sept 12 - Early December):</strong> A new collegiate
+              all Canadian league. One match per week, Default time Thursdays 8PM EST.
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
@@ -49,17 +51,28 @@ export default function RainbowSixSiegePage() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
-              Concordia students with any level of experience in R6 (PC) interested
-              in competitive play.
+              Full-time Concordia students
             </li>
             <li>
-              Players available for a few hours on match nights (normally from
-              8PM onwards).
+              Dedicated R6 players (PC only)
             </li>
-            <li>Main roster: 3-5 nights/week availability (often after 8PM).</li>
-            <li>Substitutes: Flexible scheduling with less time commitment.</li>
-          </ul>
-          <Link href="https://forms.gle/FChnDwDkcigckDXW9" target="_blank">
+            <li>Team players who can communicate (preferably in English)</li>
+            <li>Experience in ranked or competitive play is a plus — but passion and potential matter most</li>
+            </ul>
+            <h3 className="font-semibold mb-2">What to expect?</h3>
+            <ul className="list-disc pl-5 mb-4">
+            <li>
+              Competitive scrims and tournaments (collegiate and beyond)
+            </li>
+            <li>
+              Team coaching and strategy sessions
+            </li>
+            <li>Opportunities to represent Concordia in national and international esports events</li>
+            <li>A community of gamers who take teamwork seriously (and still have fun)</li>
+            </ul>
+
+            <h3 className="font-semibold mb-2">Interested? Fill out the interest form or DM us on Discord: [kyoknn / yoyoyo_]</h3>
+          <Link href="https://tinyurl.com/mrxuxbxd" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
@@ -110,18 +123,8 @@ export default function RainbowSixSiegePage() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
-          name="Oreo"
-          role="Manager"
-          icon="/rainbow-six-siege/oreo.png"
-        />
-        <TeamMemberCard
-          name="Cey"
-          role="Captain"
-          icon="/rainbow-six-siege/ceybae.png"
-        />
-        <TeamMemberCard
           name="Yoyo"
-          role="Flex"
+          role="Captain"
           icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
@@ -130,24 +133,14 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/job.png"
         />
         <TeamMemberCard
-          name="Owzee"
-          role="Support"
-          icon="/rainbow-six-siege/oz.png"
-        />
-        <TeamMemberCard
           name="Black"
           role="Support"
           icon="/rainbow-six-siege/black.png"
         />
         <TeamMemberCard
-          name="BallsUnited"
-          role="Support"
-          icon="/rainbow-six-siege/ballsunlisted.png"
-        />
-        <TeamMemberCard
-          name="Lollo"
-          role="Coach"
-          icon="/rainbow-six-siege/lollo.png"
+          name="Rango"
+          role="IGL"
+          icon="/rainbow-six-siege/rango.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -165,16 +158,6 @@ export default function RainbowSixSiegePage() {
           role="Captain"
           icon="/rainbow-six-siege/kyoshi.png"
         />
-      <TeamMemberCard
-          name="Rango"
-          role="IGL"
-          icon="/rainbow-six-siege/rango.png"
-        />
-        <TeamMemberCard
-          name="BatDashFlap"
-          role="Support"
-          icon="/rainbow-six-siege/bat.png"
-        />
         <TeamMemberCard
           name="Doc"
           role="Entry"
@@ -191,9 +174,9 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/bondurs.png"
         />
         <TeamMemberCard
-          name="Globby"
-          role="Coach"
-          icon="/rainbow-six-siege/globby.png"
+          name="BallsUnited"
+          role="Support"
+          icon="/rainbow-six-siege/ballsunlisted.png"
         />
       </div>
     </div>
