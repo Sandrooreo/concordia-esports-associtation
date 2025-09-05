@@ -71,6 +71,12 @@ export default function ApexLegends() {
                 result="Open Division"
                 link="https://liquipedia.net/apexlegends/Octane_Collegiate/Season_3/Stage_1"
               />
+              <ResultCard
+                tournamentName="Concordia Genesis Red"
+                logo="/concordia.png"
+                result="Legacy Team 2024-2025"
+                link="https://liquipedia.net/apexlegends/Octane_Collegiate/Season_3/Stage_1"
+              />
     {/* Add more ResultCards as needed */}
     </div>  
     
@@ -98,31 +104,6 @@ export default function ApexLegends() {
             />
             {/* Add more TeamMemberCards as needed */}
           </div>
-    
-    
-          <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
-            <div className="bg-black rounded-xl p-2">
-              <img src="/concordia.png" alt="Concordia Red Logo" className="w-8 h-8" />
-            </div>
-            <span className="ml-2">Concordia Genesis Red</span>
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-          <TeamMemberCard
-              name="Rocky"
-              role="Player"
-              icon="/apex/rocky.png"
-            />
-            <TeamMemberCard
-              name="ItsCamal"
-              role="Player"
-              icon="/apex/itscamal.png"
-            />
-          <TeamMemberCard
-              name="Krash"
-              role="Player"
-              icon="/apex/krash.png"
-            />
           </div>
-        </div>
   );
 }

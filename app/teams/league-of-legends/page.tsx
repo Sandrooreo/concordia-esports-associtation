@@ -65,7 +65,7 @@ export default function LeagueOfLegendsPage() {
           </ul>
           <br></br>
           <Link
-            href="https://forms.gle/yyk9cnHd8jqBuzaj8"
+            href="https://forms.gle/3zfHLCBHhZzFaxpT7"
             target="_blank"
           >
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">

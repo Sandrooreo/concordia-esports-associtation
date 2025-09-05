@@ -15,25 +15,43 @@ export default function StaffAndCreativeTeam() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The CeSA staff is commited to providing a fun experience, allowing
-            players to enjoy their time within the Concordia Esports Students
-            Association. Granting them opportunities to play in various leagues,
-            competitions and tournaments across several games.
+            The CeSA staff is dedicated to creating a fun, engaging, and welcoming
+             environment where players can truly enjoy their time within the 
+             Concordia Esports Students Association. We provide opportunities to compete
+              in leagues, tournaments, and events across a wide range of games, 
+              helping our members grow both in and out of competition.
           </p>
-          <h3 className="font-semibold mb-2">The Creative Team</h3>
+        <h3 className="font-semibold mb-2">Leadership Staff</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Casting and Streaming:</strong> Our Casting Team is focused
-              on providing an interesting overview and enjoyable experience for all
-              our listners watching our games. A play by play commentary and an
-              ever expanding addition to the CeSA world.
+              <strong>Concordia Club Staff:</strong> The backbone of CeSA’s operations,
+               our Club Staff oversee the direction and management of the association.
+                Roles include President, Vice President, and Administrators who ensure
+                 everything runs smoothly within the organization.
               <ul className="list-disc pl-5">
               </ul>
             </li>
             <li>
-              <strong>Production Team:</strong> Our group of Production Team
-              is focused on providing assistance to streaming, additional graphic
-              design and a multitude of technical support.
+              <strong>Team Coordinators:</strong> Our Team Coordinators serve as the bridge
+               between CeSA leadership and our competitive rosters. 
+               They focus on team organization and player development, 
+               ensuring each roster has the structure and support needed to succeed.
+            </li>
+          </ul>
+          <h3 className="font-semibold mb-2">The Creative Team</h3>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>Casting and Streaming:</strong> Our Casting Team delivers dynamic,
+               play-by-play commentary that keeps matches exciting and engaging for our
+                audience. They bring energy and insight to every broadcast, 
+                helping fans connect with the action.
+              <ul className="list-disc pl-5">
+              </ul>
+            </li>
+            <li>
+              <strong>Production Team:</strong> Behind the scenes, our Production Team
+               ensures every stream runs smoothly. From technical support and broadcast
+                management to graphic design and creative assets, they’re the backbone of CeSA’s content.
             </li>
           </ul>
         </CardContent>
@@ -44,24 +62,43 @@ export default function StaffAndCreativeTeam() {
           <CardTitle className="text-xl">Recruitment</CardTitle>
         </CardHeader>
         <CardContent>
-          <h3 className="font-semibold mb-2">Who are we looking for?</h3>
-          <ul className="list-disc pl-5 mb-4">
+          <p className="mb-4">
+            We’re seeking Concordia students eager to dive into the world of esports,
+             content creation, and leadership. Whether you’re an aspiring caster,
+              streamer, production enthusiast, or someone interested in organizational
+               roles, there’s a place for you on our team.
+          </p>
+        <h3 className="font-semibold mb-2">Leadership Staff</h3>
+          <ul className="list-disc pl-5">
             <li>
-              Concordia students with a desire to get into the world of content
-              and esports.
+              <strong>Concordia Club Staff:</strong> Details include assisting with events coordination. 
+              Financial management and maintaining budgets.
+               Communications within Concordia, other external organizations, and our partners.
+               Keeping our community engaged through updates, promotions, and online presence.
+              <ul className="list-disc pl-5">
+              </ul>
             </li>
             <li>
-              We are looking for casters, streamers, and other staff members
-              dedicated to the production side of esports.
-            </li>
-            <li>Main importance is availbility for casting on default days of
-              participating leagues and tournaments
-            </li>
-            <li>Small bonus if proficient in knowledge of one or more CeSA
-              participating games.
+              <strong>Team Coordinators:</strong> Coordinators organize player recruitment,
+               organizing tryouts, and handle the onboarding of new members to CeSA teams. 
+               Our Coordinators are responsible for tournament and league registrations, 
+               scheduling practices, and managing scrims and matches. While also providing
+                structure and guidance to their teams, ensuring every roster is prepared 
+                and supported both in and out of competition.
             </li>
           </ul>
-          <Link href="https://forms.gle/MqS9sFqufGYrPQr69" target="_blank">
+          <h3 className="font-semibold mb-2">The Creative Team</h3>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>Casting and Streaming:</strong> Provide live commentary and engaging broadcasts.
+              <ul className="list-disc pl-5">
+              </ul>
+            </li>
+            <li>
+              <strong>Production Team:</strong> Handle graphics, stream management, and tech support.
+            </li>
+          </ul>
+          <Link href="docs.google.com/forms/d/e/1FAIpQLSdAP603FE2zrW7RgUpjcmc1tlwrYVUl0Bh8pIfZ8hTRAULOtw/viewform?usp=dialog" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
@@ -77,9 +114,9 @@ export default function StaffAndCreativeTeam() {
           icon="/staff/julien.png"
         />
         <TeamMemberCard
-          name="Litchi"
-          role="Welcome Bot"
-          icon="/staff/litchi.png"
+          name="Shivam Khera"
+          role="Co-President"
+          icon="/staff/shivam.png"
         />
         <TeamMemberCard
           name="RexO"
