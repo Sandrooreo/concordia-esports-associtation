@@ -17,7 +17,7 @@ export default function RocketLeaguePage() {
         </CardHeader>
         <CardContent>
           <p className="mb-4">
-            The Concordia Halycon Rocket League team is a squad representing Concordia University.
+            The Concordia Halcyon Rocket League team is a squad representing Concordia University.
             We have a long standing history of fun and competitive rosters in collegiate and non collegiate leagues.
             We are constantly looking to improve and expand our roster with new faces and friends.
           </p>

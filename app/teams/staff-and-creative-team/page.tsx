@@ -179,7 +179,7 @@ export default function StaffAndCreativeTeam() {
           icon="/staff/kewaninou.png"
         />
         <TeamMemberCard
-          name="KatieKayelin"
+          name="KatieKatelin"
           role="LoL Coordinator"
           icon="/league-of-legends/katie.png"
         />
