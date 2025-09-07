@@ -91,7 +91,7 @@ export default function ValorantPage() {
               <TeamMemberCard
                 name="Owzee"
                 role="Player"
-                icon="/valorant/oz.png"
+                icon="/rainbow-six-siege/oz.png"
               />
               <TeamMemberCard
                 name="Huntxr_"

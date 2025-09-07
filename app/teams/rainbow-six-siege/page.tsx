@@ -128,6 +128,16 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
+          name="Rango"
+          role="IGL"
+          icon="/rainbow-six-siege/rango.png"
+        />
+        <TeamMemberCard
+          name="Owzee"
+          role="Flex"
+          icon="/rainbow-six-siege/oz.png"
+        />
+        <TeamMemberCard
           name="Job"
           role="Entry"
           icon="/rainbow-six-siege/job.png"
@@ -136,11 +146,6 @@ export default function RainbowSixSiegePage() {
           name="Black"
           role="Support"
           icon="/rainbow-six-siege/black.png"
-        />
-        <TeamMemberCard
-          name="Rango"
-          role="IGL"
-          icon="/rainbow-six-siege/rango.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -169,14 +174,29 @@ export default function RainbowSixSiegePage() {
           icon="/rainbow-six-siege/nicknack.png"
         />
         <TeamMemberCard
-          name="Bondurs"
-          role="Flex"
-          icon="/rainbow-six-siege/bondurs.png"
+          name="Nauq"
+          role="Entry"
+          icon="/rainbow-six-siege/nauq.png"
         />
         <TeamMemberCard
-          name="BallsUnited"
+          name="Crimson"
           role="Support"
-          icon="/rainbow-six-siege/ballsunlisted.png"
+          icon="/rainbow-six-siege/crimpfp.png"
+        />
+        <TeamMemberCard
+          name="Giantsbane"
+          role="Sub"
+          icon="/rainbow-six-siege/giantsbane.png"
+        />
+        <TeamMemberCard
+          name="Globby"
+          role="Coach"
+          icon="/rainbow-six-siege/globby.png"
+        />
+        <TeamMemberCard
+          name="Taro"
+          role="Coach"
+          icon="/rainbow-six-siege/taro.png"
         />
       </div>
     </div>
