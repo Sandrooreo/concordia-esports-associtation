@@ -84,7 +84,7 @@ export default function ApexLegends() {
             <div className="bg-black rounded-xl p-2">
               <img src="/concordia-gold.png" alt="Concordia Gold Logo" className="w-8 h-8" />
             </div>
-            <span className="ml-2">Concordia Genesis Gold</span>
+            <span className="ml-2">Concordia Axiom Gold</span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
             <TeamMemberCard

@@ -61,6 +61,17 @@ export default function ValorantPage() {
         </CardContent>
       </Card>
 
+            <h2 className="text-2xl font-semibold mb-4">Results</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-8">
+              <ResultCard
+                tournamentName="CCLVAL Winter Series 2025"
+                logo="/ccl.webp"
+                result="6th in Group A"
+                link="https://www.opleague.pro/event/5407-CCLVALWinterSeries2025-Phase1-GroupStage-GroupA/course?playday=5&selected=9827-Western-Walruses"
+              />
+               {/* Add more ResultCards as needed */}
+      </div>
+
       <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
               <div className="bg-black rounded-xl p-2">
                 <img src="/concordia.png" alt="Concordia Crimson Logo" className="w-8 h-8" />

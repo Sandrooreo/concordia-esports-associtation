@@ -67,13 +67,13 @@ export default function RocketLeaguePage() {
           tournamentName="LAN LUQSE 2024"
           logo="/rocket-league/luqse.webp"
           result="Top 4"
-          link="https://challonge.com/VESPAInvite/standings"
+          link=""
         />
         <ResultCard
           tournamentName="Playfly Collegiate Esports"
           logo="/rocket-league/playfly.webp"
           result="Playoffs"
-          link="https://challonge.com/VESPAInvite/standings"
+          link=""
         />
         {/* Add more ResultCards as needed */}
       </div>

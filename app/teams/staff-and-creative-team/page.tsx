@@ -116,7 +116,7 @@ export default function StaffAndCreativeTeam() {
         <TeamMemberCard
           name="Shivam Khera"
           role="Co-President"
-          icon="/staff/shivam.png"
+          icon="/staff/firehawk.png"
         />
         <TeamMemberCard
           name="RexO"
@@ -132,6 +132,16 @@ export default function StaffAndCreativeTeam() {
           name="Dion"
           role="Event Coordinator"
           icon="/staff/dion.png"
+        />
+        <TeamMemberCard
+          name="Arcade"
+          role="VP Marketing -- LoL Coordinator"
+          icon="/league-of-legends/arcade.png"
+        />
+        <TeamMemberCard
+          name="KatieKatelin"
+          role="VP Internal -- LoL Coordinator"
+          icon="/staff/katiekatelin.png"
         />
         <TeamMemberCard
           name=".Syl"
@@ -177,16 +187,6 @@ export default function StaffAndCreativeTeam() {
           name="Kewaninou"
           role="CS2 Coordinator"
           icon="/staff/kewaninou.png"
-        />
-        <TeamMemberCard
-          name="KatieKatelin"
-          role="LoL Coordinator"
-          icon="/league-of-legends/katie.png"
-        />
-        <TeamMemberCard
-          name="Arcade"
-          role="LoL Coordinator"
-          icon="/league-of-legends/arcade.png"
         />
         <TeamMemberCard
           name="BatDashFlap"

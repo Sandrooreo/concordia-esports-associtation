@@ -78,6 +78,18 @@ export default function OverwatchPage() {
                 result="Top 8 Playoffs"
                 link=""
               />
+              <ResultCard
+                tournamentName="Spawn Point Championship Series 2"
+                logo="/ow2/spcs.webp"
+                result="6th in Advanced Division -- 9th in Intermediate Division"
+                link="https://spcs.slmn.gg/event/2T93kQLRsmdcB6/standings"
+              />
+              <ResultCard
+                tournamentName="CCL OW2 Winter Invitational"
+                logo="/ccl.webp"
+                result="Quarter Finals"
+                link="https://www.opleague.pro/event/5838-CCLOW2WinterInvitational2025-Phase2-Playoffs/course"
+              />
               {/* Add more ResultCards as needed */}
             </div>
    

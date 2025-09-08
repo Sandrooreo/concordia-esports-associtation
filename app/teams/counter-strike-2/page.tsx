@@ -71,7 +71,7 @@ export default function CounterStrike2() {
                     <ResultCard
                       tournamentName="ESEA: Season 51 Open Division"
                       logo="/cs2/esea.png"
-                      result="Open Division"
+                      result="Open Division 3rd round Playoffs"
                       link="https://www.faceit.com/en/cs2/league/ESEA%20League/a14b8616-45b9-4581-8637-4dfd0b5f6af8/e60308e0-fa19-4266-a509-aa68fcd512d9/overview"
                     />
                     <ResultCard

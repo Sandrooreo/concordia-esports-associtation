@@ -89,19 +89,19 @@ export default function RainbowSixSiegePage() {
           link="https://challonge.com/VESPAInvite/standings"
         />
         <ResultCard
-          tournamentName="CR6 Fall 2023"
+          tournamentName="CR6 Fall Season 9 2023"
           logo="/rainbow-six-siege/cr6.webp"
           result="Top 64 Playoffs"
           link="https://www.faceit.com/en/championship/e407c138-319d-4aea-b520-965940cf839d/CollegiateR6%20S9%20Stage%201%20Playoffs/standings/column"
         />
         <ResultCard
-          tournamentName="CR6 Spring 2023"
+          tournamentName="CR6 Spring Season 9 2023"
           logo="/rainbow-six-siege/cr6.webp"
           result="Top 64 Playoffs"
           link="https://www.faceit.com/en/championship/b1e622f3-0662-41e5-b1f9-3ed453c47099/CollegiateR6%20Season%209%20Stage%202%20Playoffs/standings/column"
         />
         <ResultCard
-          tournamentName="CR6 Fall 2024"
+          tournamentName="CR6 Fall Season 10 2024"
           logo="/rainbow-six-siege/cr6.webp"
           result="20th in Groups"
           link="https://www.faceit.com/en/championship/c8dd5e47-6417-462b-8af4-0d14bc69a337/CollegiateR6%20-%20Season%2010%20-%20Stage%201%20-%20East/standings/leaderboard"
@@ -111,6 +111,24 @@ export default function RainbowSixSiegePage() {
           logo="/ccl.webp"
           result="6th in Group B"
           link="https://www.opleague.pro/event/4397-CCLR6Season1-groupstage/standing/overview"
+        />
+        <ResultCard
+          tournamentName="CCLR6 Season 2 Spring 2025"
+          logo="/ccl.webp"
+          result="WildCard Semi-Finals"
+          link="https://www.opleague.pro/event/5639-CCLR6Season2-Phase2-WildCard/course"
+        />
+        <ResultCard
+          tournamentName="CR6 Spring Season 10 2025"
+          logo="/rainbow-six-siege/cr6.webp"
+          result="Round of 64"
+          link="https://www.faceit.com/en/championship/aab8cec2-8b89-4146-bb98-89b3303ec670/CollegiateR6%20-%20Season%2010%20-%20Stage%202%20-%20Combined%20Playoffs/standings/column"
+        />
+        <ResultCard
+          tournamentName="Frostfire LAN 2025"
+          logo="/cs2/frostfire2025.png"
+          result="Winners"
+          link="https://www.start.gg/tournament/frostfire-2025-1/event/rainbow-six-siege/brackets/1838035/2712213"
         />
         {/* Add more ResultCards as needed */}
       </div>
