@@ -55,7 +55,7 @@ export default function ApexLegends() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/a6gTNgDc9tDvzHRs8" target="_blank">
+          <Link href="https://forms.gle/zZTXnYc3NzkPfDWn9" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
