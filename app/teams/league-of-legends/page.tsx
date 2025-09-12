@@ -8,7 +8,7 @@ export default function LeagueOfLegendsPage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/league-of-legends.png" alt="League of Legends Logo" className="w-14 h-14 mr-3" />
+        <img src="/games/league-of-legends.png" alt="League of Legends Logo" className="w-18 h-14 mr-2" />
         League of Legends Team
       </h1>
 
@@ -65,7 +65,7 @@ export default function LeagueOfLegendsPage() {
           </ul>
           <br></br>
           <Link
-            href="https://forms.gle/3zfHLCBHhZzFaxpT7"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScmdNnj0PBwA3L-T1__DQCwCCIeqQ62tSZB7aJxvwlLpb0fEg/viewform?usp=header"
             target="_blank"
           >
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">

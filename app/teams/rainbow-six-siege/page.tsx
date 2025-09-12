@@ -32,6 +32,10 @@ export default function RainbowSixSiegePage() {
               collegiate league in NA. One match per week, Default time Fridays 8:30PM EST.
             </li>
             <li>
+              <strong>Rally Cry (Sept - Early December):</strong> A collegiate league in NA
+             sponsored by Ubisoft. One match per week, Default is Weekends. 
+            </li>
+            <li>
               <strong>CCL (Sept 12 - Early December):</strong> A new collegiate
               all Canadian league. One match per week, Default time Thursdays 8PM EST.
             </li>

@@ -8,7 +8,7 @@ export default function ApexLegends() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/apex-legends.png" alt="Apex Legends Logo" className="w-12 h-12 mr-3" />
+        <img src="/games/apex-legends.png" alt="Apex Legends Logo" className="w-14 h-14 mr-3" />
         Apex Legends Team
       </h1>
 
@@ -55,7 +55,7 @@ export default function ApexLegends() {
             <li>Main roster: 3-5 nights/week availability.</li>
             <li>Substitutes: Flexible scheduling with less time commitment.</li>
           </ul>
-          <Link href="https://forms.gle/zZTXnYc3NzkPfDWn9" target="_blank">
+          <Link href="https://forms.gle/Emys5RL7uSJbRHPL6" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>

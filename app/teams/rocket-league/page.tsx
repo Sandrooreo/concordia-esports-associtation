@@ -8,7 +8,7 @@ export default function RocketLeaguePage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/rocket-league.png" alt="Rocket League Logo" className="w-12 h-12 mr-4" />
+        <img src="/games/rocket-league.png" alt="Rocket League Logo" className="w-14 h-14 mr-4" />
         Rocket League Team
       </h1>
       <Card className="mb-8">
@@ -53,7 +53,7 @@ export default function RocketLeaguePage() {
             <li>We expect players to be available for games as well as team and indidivual practice throughout the week for a total commitment of about 5h per week.</li>
             <li>Players need to be able to communicate their availability each weeks to the Coordinator as schedule changes affects practice and game schedule.</li>
           </ul>
-          <Link href="https://forms.gle/PwzEnNde9tFDuZHX6" target="_blank">
+          <Link href="https://docs.google.com/document/d/1oKFIfQqrU8npxHIXdC3xiG8N0oabfXdB1GOHXPpqd4s/edit?usp=sharing" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>

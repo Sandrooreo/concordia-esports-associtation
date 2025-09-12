@@ -8,7 +8,7 @@ export default function ValorantPage() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
-        <img src="/games/valorant.png" alt="Valorant Logo" className="w-14 h-14 mr-3" />
+        <img src="/games/valorant.png" alt="Valorant Logo" className="w-18 h-14 mr-3" />
         Valorant Team
       </h1>
 
@@ -53,7 +53,7 @@ export default function ValorantPage() {
             reach out to an admin on discord . Thank you and we&apos;re
             excited to see everyone soon!
           </p>
-          <Link href="https://forms.gle/L3WDSgLyQoarvyv47" target="_blank">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScxoks09yL8IDVHuViActlGaSS7-xnDxWNHy5JxhOUq-sRJtg/viewform?usp=dialog" target="_blank">
             <Button className="bg-concordia-burgundy hover:bg-concordia-gold">
               Join Our Team
             </Button>
