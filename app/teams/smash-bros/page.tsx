@@ -9,7 +9,7 @@ export default function SmashPage() {
     <div className="container mx-auto px-4">
       <h1 className="text-4xl font-bold mb-8 flex items-center">
         <img src="/games/smash-bros.png" alt="Smash Bros" className="w-18 h-14 mr-4" />
-        Super Smash Bro's Team
+        Super Smash Bro&apos;s Team
       </h1>
 
       <Card className="mb-8">
@@ -32,7 +32,7 @@ export default function SmashPage() {
           <h3 className="font-semibold mb-2">Who are we looking for?</h3>
           <ul className="list-disc pl-5 mb-4">
             <li>
-              Players with any level of experience in Smash Bro's (any platforms) who are interested in competitive play.
+              Players with any level of experience in Smash Bro&apos;s (any platforms) who are interested in competitive play.
             </li>
             <li>
               Full-Time students with a Concordia email address (you can easily ask for one via the StudentHub).

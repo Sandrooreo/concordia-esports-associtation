@@ -12,7 +12,7 @@ const teams = [
   { name: "Apex Legends", slug: "apex-legends" },
   { name: "CS2", slug: "counter-strike-2" },
   { name: "Valorant", slug: "valorant" },
-  { name: "Smash Bro's", slug: "smash-bros" },
+  { name: "Smash Bro&apos;s", slug: "smash-bros" },
   { name: "Deadlock", slug: "deadlock" },
   { name: "Marvel Rivals", slug: "marvel-rivals" },
   { name: "Clash Royal", slug: "clash-royal" },
