@@ -34,8 +34,8 @@ export default function CounterStrike2() {
               <strong>Frostfire 2025 LAN:</strong> January 18th 2025
             </li>
             <li>
-              <strong>Open tournaments:</strong> Participation depends on team
-              availability.
+              <strong> Canadian Collegiate League (Sept 15th - Early December):</strong> A growing collegiate
+              all Canadian league. One match per week, Default time Mondays 8PM EST.
             </li>
           </ul>
         </CardContent>
@@ -91,44 +91,49 @@ export default function CounterStrike2() {
           </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
       <TeamMemberCard
-          name="Cortal"
+          name="Briggan"
           role="Captain"
-          icon="/cs2/cortal.png"
+          icon="/cs2/briggan.png"
         /> 
         <TeamMemberCard
-          name="KazuyA"
+          name="Declan"
           role="AWP"
-          icon="/cs2/kazuya.png"
+          icon="/cs2/declan.png"
         />
         <TeamMemberCard
-          name="Tobes"
+          name="mjgoat"
           role="Rifler"
-          icon="/cs2/tobes.png"
+          icon="/cs2/mjgoat.png"
         />
         <TeamMemberCard
-          name="Gwigs"
-          role="IGL"
-          icon="/cs2/gwigs.png"
+          name="ewan"
+          role="Rigler"
+          icon="/cs2/ewan.png"
         />
         <TeamMemberCard
-          name="PAIN"
+          name="zach"
           role="Rifler"
-          icon="/cs2/pain.png"
+          icon="/cs2/zach.png"
         />
         <TeamMemberCard
-          name="Kewaninou"
-          role="Sub"
-          icon="/staff/kewaninou.png"
+          name="TSUNAMI"
+          role="Rifler"
+          icon="/cs2/tsunami.png"
         />
         <TeamMemberCard
-          name="Mario"
-          role="Sub"
-          icon="/cs2/mariouch.png"
+          name="Gopak"
+          role="Rifler"
+          icon="/cs2/gopak.png"
         />
         <TeamMemberCard
-          name="Snor"
-          role="Sub"
-          icon="/cs2/snor.png"
+          name="Kordia"
+          role="Rifler"
+          icon="/cs2/kordia.png"
+        />
+        <TeamMemberCard
+          name="syxsown"
+          role="Rifler"
+          icon="/games/counter-strike-2.png"
         />
         </div>
     </div>

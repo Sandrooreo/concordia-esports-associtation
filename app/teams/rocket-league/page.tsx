@@ -24,14 +24,11 @@ export default function RocketLeaguePage() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Playfly College Esports (Sept 23rd - Early November):</strong> 1 match per week on Monday evenings.
+              <strong> Canadian Collegiate League (Sept 15th - Early December):</strong> A growing collegiate
+              all Canadian league. One match per week, Default time Tuesdays 8PM EST.
             </li>
             <li>
-              <strong>Telus Esports Series 4 (Sept 18-19 - Sept 25-26 - Oct 2-3):</strong> Matches during the weekend.
-            </li>
-            <li>
-              <strong>Open tournaments:</strong> Participation depends on team
-              availability.
+              <strong>Gankster Scrims:</strong> An open Scrim setting. 
             </li>
           </ul>
         </CardContent>
@@ -86,24 +83,34 @@ export default function RocketLeaguePage() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
+          name="Naqu"
+          role="Player"
+          icon="/rainbow-six-siege/nauq.png"
+        />
+        <TeamMemberCard
+          name="MansrFlying"
+          role="Player"
+          icon="/rocket-league/mansrflying.png"
+        />
+        <TeamMemberCard
+          name="Jacquez"
+          role="Captain"
+          icon="/staff/jacquez.png"
+        />
+        <TeamMemberCard
           name="Bardo"
-          role="Team Captain"
+          role="Sub"
           icon="/rocket-league/bardo.png"
         />
         <TeamMemberCard
-          name="Mans"
-          role="Player"
-          icon="/rocket-league/mans.png"
-        />
-        <TeamMemberCard
-          name="Naro"
-          role="Player"
-          icon="/rocket-league/naro.png"
-        />
-        <TeamMemberCard
-          name="MakandCheese"
+          name="Dani3l"
           role="Sub"
-          icon="/rocket-league/mak.png"
+          icon="/rocket-league/dani3l.png"
+        />
+        <TeamMemberCard
+          name="T0_0T"
+          role="Sub"
+          icon="/rocket-league/t0t0.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -116,56 +123,37 @@ export default function RocketLeaguePage() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
-          name="Jacques_Squoooiize"
-          role="Team Captain"
-          icon="/staff/jacquez.png"
+          name="3asses"
+          role="Captain"
+          icon="/rocket-league/3asses.png"
         />
         <TeamMemberCard
-          name="Deadly Marly"
+          name="Will"
           role="Player"
-          icon="/rocket-league/marly.png"
+          icon="/rocket-league/will.png"
         />
         <TeamMemberCard
-          name="Rubello"
+          name="Ghumsi"
           role="Player"
-          icon="/rocket-league/rubello.png"
+          icon="/rocket-league/ghumsi.png"
         />
         <TeamMemberCard
-          name="Mowfling"
+          name="Lard"
           role="Sub"
-          icon="/rocket-league/mowfling.png"
+          icon="/rocket-league/lard.png"
         />
-        {/* Add more TeamMemberCards as needed */}
-      </div>
-      <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
-        <div className="bg-black rounded-xl p-2">
-          <img src="/concordia.png" alt="Concordia Maroon Logo" className="w-8 h-8" />
-        </div>
-        <span className="ml-2">Concordia Maroon</span>
-      </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
           name="Breadmonke"
-          role="Team Captain"
+          role="Sub"
           icon="/rocket-league/breadmonke.png"
         />
         <TeamMemberCard
-          name="Flippy"
-          role="Player"
-          icon="/rocket-league/flippy.png"
-        />
-        <TeamMemberCard
           name="LilGoatie"
-          role="Player"
-          icon="/rocket-league/lilgoatie.png"
-        />
-        <TeamMemberCard
-          name="3asses"
           role="Sub"
-          icon="/rocket-league/3asses.png"
+          icon="/rocket-league/lilgoatie.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
-    </div>
+      </div>
   );
 }

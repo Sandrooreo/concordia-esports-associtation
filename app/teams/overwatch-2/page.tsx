@@ -28,8 +28,8 @@ export default function OverwatchPage() {
               <strong>SPCS Intermediate and Advanced Divisions:</strong> Febuary 13th - Febuary 27th + Playoffs
             </li>
             <li>
-              <strong>Open tournaments:</strong> Participation depends on team
-              availability.
+              <strong> Canadian Collegiate League (Sept 15th - Early December):</strong> A growing collegiate
+              all Canadian league. One match per week, Default time Wednesdays 8PM EST.
             </li>
           </ul>
         </CardContent>

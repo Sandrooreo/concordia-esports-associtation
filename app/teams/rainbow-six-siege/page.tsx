@@ -28,7 +28,7 @@ export default function RainbowSixSiegePage() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>CR6 (Sept 12 - Early December):</strong> A long-standing
+              <strong>PlayCollegiate Rainbow 6 (Sept 12 - Early December):</strong> One of the longest-standing
               collegiate league in NA. One match per week, Default time Fridays 8:30PM EST.
             </li>
             <li>
@@ -36,7 +36,7 @@ export default function RainbowSixSiegePage() {
              sponsored by Ubisoft. One match per week, Default is Weekends. 
             </li>
             <li>
-              <strong>CCL (Sept 12 - Early December):</strong> A new collegiate
+              <strong>Canadian Collegiate League (Sept 12 - Early December):</strong> A growing collegiate
               all Canadian league. One match per week, Default time Thursdays 8PM EST.
             </li>
             <li>
@@ -145,19 +145,19 @@ export default function RainbowSixSiegePage() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         <TeamMemberCard
+          name="Kyo"
+          role="Flex-Entry"
+          icon="/rainbow-six-siege/kyoshi.png"
+        />
+        <TeamMemberCard
           name="Yoyo"
-          role="Captain"
+          role="Flex"
           icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
           name="Rango"
-          role="IGL"
+          role="IGL Support"
           icon="/rainbow-six-siege/rango.png"
-        />
-        <TeamMemberCard
-          name="Owzee"
-          role="Flex"
-          icon="/rainbow-six-siege/oz.png"
         />
         <TeamMemberCard
           name="Job"
@@ -168,6 +168,21 @@ export default function RainbowSixSiegePage() {
           name="Black"
           role="Support"
           icon="/rainbow-six-siege/black.png"
+        />
+        <TeamMemberCard
+          name="Owzee"
+          role="Sub"
+          icon="/rainbow-six-siege/oz.png"
+        />
+        <TeamMemberCard
+          name="Crimson"
+          role="Sub"
+          icon="/rainbow-six-siege/crimpfp.png"
+        />
+        <TeamMemberCard
+          name="Globby"
+          role="Coach"
+          icon="/rainbow-six-siege/globby.png"
         />
         {/* Add more TeamMemberCards as needed */}
       </div>
@@ -180,46 +195,7 @@ export default function RainbowSixSiegePage() {
         <span className="ml-2">Concordia Gold</span>
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-      <TeamMemberCard
-          name="Kyo"
-          role="Captain"
-          icon="/rainbow-six-siege/kyoshi.png"
-        />
-        <TeamMemberCard
-          name="Doc"
-          role="Entry"
-          icon="/rainbow-six-siege/seephoun.png"
-        />
-        <TeamMemberCard
-          name="NickNack"
-          role="Support"
-          icon="/rainbow-six-siege/nicknack.png"
-        />
-        <TeamMemberCard
-          name="Nauq"
-          role="Entry"
-          icon="/rainbow-six-siege/nauq.png"
-        />
-        <TeamMemberCard
-          name="Crimson"
-          role="Support"
-          icon="/rainbow-six-siege/crimpfp.png"
-        />
-        <TeamMemberCard
-          name="Giantsbane"
-          role="Sub"
-          icon="/rainbow-six-siege/giantsbane.png"
-        />
-        <TeamMemberCard
-          name="Globby"
-          role="Coach"
-          icon="/rainbow-six-siege/globby.png"
-        />
-        <TeamMemberCard
-          name="Taro"
-          role="Coach"
-          icon="/rainbow-six-siege/taro.png"
-        />
+      
       </div>
     </div>
   );

@@ -26,10 +26,11 @@ export default function ValorantPage() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>CVAL East(January 25th - Febuary 22nd)</strong>
+              <strong> CVAL East(January 25th - Febuary 22nd)</strong>
             </li>
             <li>
-              <strong>CCL (January 27th - April)</strong>
+              <strong> Canadian Collegiate League (Sept 15th - Early December):</strong> A growing collegiate
+              all Canadian league. One match per week, Default time Fridays 8PM EST.
             </li>
             <li>
               <strong>Open tournaments:</strong> Participation depends on team
