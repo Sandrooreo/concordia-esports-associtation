@@ -61,7 +61,7 @@ export default function Home() {
             <li>
               <strong>Rocket League Canada: 1v1s (Oct 4th):</strong> Rocket League Canada hosting a 1v1 tournament at
                Sky Internet Cafe in Lachine. Hosted on October 4th at 4:30pm EST. Come support some of our players or watch it live
-                on TBD Twitch!
+                on www.twitch.tv/shawngru Twitch!
             </li>
             <li>
               <strong>ETS R6 LAN (Oct 18-19):</strong> École de Technologie Supérieure is running a 
