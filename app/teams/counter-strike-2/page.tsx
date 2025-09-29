@@ -25,15 +25,6 @@ export default function CounterStrike2() {
           <h3 className="font-semibold mb-2">Competition Schedule</h3>
           <ul className="list-disc pl-5">
             <li>
-              <strong>ESEA: Season 51 Open Division 9 - 10</strong>
-              <ul className="list-disc pl-5">
-                <li>Season 52 - Open Division -{">"} (January 13th - March 2nd + Playoffs) </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Frostfire 2025 LAN:</strong> January 18th 2025
-            </li>
-            <li>
               <strong> Canadian Collegiate League (Sept 15th - Early December):</strong> A growing collegiate
               all Canadian league. One match per week, Default time Mondays 8PM EST.
             </li>
@@ -85,9 +76,9 @@ export default function CounterStrike2() {
       
       <h2 className="text-2xl font-semibold mb-4 pt-4 flex items-center">
             <div className="bg-black rounded-xl p-2">
-              <img src="/concordia-blue.png" alt="Concordia Blue Logo" className="w-8 h-8" />
+              <img src="/concordia.png" alt="Concordia Logo" className="w-8 h-8" />
             </div>
-            <span className="ml-2">Concordia Blue</span>
+            <span className="ml-2">Concordia MTL</span>
           </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
       <TeamMemberCard
