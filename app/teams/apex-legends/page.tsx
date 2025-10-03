@@ -93,14 +93,19 @@ export default function ApexLegends() {
               icon="/apex/kajiida.png"
             />
             <TeamMemberCard
-              name="Kakubacon"
-              role="Player"
-              icon="/apex/kakubacon.png"
-            />
-            <TeamMemberCard
               name="TuxHood"
               role="Player"
               icon="/apex/tuxhood.png"
+            />
+            <TeamMemberCard
+              name="Dagger"
+              role="Player"
+              icon="/apex/dagger.png"
+            />
+            <TeamMemberCard
+              name="Kakubacon"
+              role="Sub"
+              icon="/apex/kakubacon.png"
             />
             {/* Add more TeamMemberCards as needed */}
           </div>

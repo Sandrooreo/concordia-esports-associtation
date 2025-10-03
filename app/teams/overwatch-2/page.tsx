@@ -112,33 +112,38 @@ export default function OverwatchPage() {
            />
            <TeamMemberCard
              name="Moogoesquack"
-             role="DPS"
+             role="Flex DPS"
              icon="/staff/julien.png"
            />
            <TeamMemberCard
-             name="Seta"
-             role="DPS"
-             icon="/ow2/seta.png"
+             name="Kartik"
+             role="Hitscan DPS"
+             icon="/games/overwatch-2.png"
            />
            <TeamMemberCard
-             name="Vinvoide"
-             role="Support"
+             name="Jawbreaker"
+             role="Flex DPS"
+             icon="/ow2/jawbreakerx.gif"
+           />
+           <TeamMemberCard
+             name="Vin"
+             role="HyperFlex"
              icon="/ow2/vinvoide.png"
            />
            <TeamMemberCard
-             name="JJacket"
-             role="Support"
-             icon="/ow2/jjacket.png"
-           />
-           <TeamMemberCard
              name="B3ll"
-             role="Support"
+             role="HyperFlex Support"
              icon="/ow2/b3ll.png"
            />
            <TeamMemberCard
-             name="Fa1nter"
-             role="Support"
-             icon="/ow2/fa1nter.gif"
+             name="JJacket"
+             role="Flex Support"
+             icon="/ow2/jjacket.png"
+           />
+           <TeamMemberCard
+             name="Pestyence"
+             role="Flex Support"
+             icon="/games/overwatch-2.png"
            />
            {/* Add more TeamMemberCards as needed */}
          </div>
@@ -157,28 +162,38 @@ export default function OverwatchPage() {
              icon="/ow2/amigo.png"
            />
          <TeamMemberCard
-             name="Jawbreaker"
-             role="DPS"
-             icon="/ow2/jawbreakerx.gif"
-           />
-           <TeamMemberCard
-             name="R1ptide"
-             role="Support"
-             icon="/ow2/r1ptide.png"
-           />
-           <TeamMemberCard
-             name="Freakywizard"
-             role="DPS"
+             name="Parker"
+             role="Flex DPS"
              icon="/games/overwatch-2.png"
            />
            <TeamMemberCard
-             name="Jimbionicles"
-             role="Support"
-             icon="/ow2/jimbionicles.png"
+             name="Domi"
+             role="Flex DPS"
+             icon="/games/overwatch-2.png"
+           />
+           <TeamMemberCard
+             name="Vanity"
+             role="Hitscan DPS"
+             icon="/games/overwatch-2.png"
+           />
+           <TeamMemberCard
+             name="R1ptide"
+             role="HyperFlex Support"
+             icon="/ow2/r1ptide.png"
+           />
+           <TeamMemberCard
+             name="Coma"
+             role="Flex Support"
+             icon="/games/overwatch-2.png"
+           />
+           <TeamMemberCard
+             name="Ronboi"
+             role="Hyperflex Support"
+             icon="/games/overwatch-2.png"
            />
            <TeamMemberCard
              name="Bucket"
-             role="Support"
+             role="Main Support"
              icon="/ow2/bucket.png"
            />
          </div>
@@ -190,45 +205,45 @@ export default function OverwatchPage() {
            <span className="ml-2">Concordia NoMoreMr.NiceGuy</span>
          </h2>
          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-         <TeamMemberCard
-             name="Motherkiller"
+           <TeamMemberCard
+             name="TuneEternal"
              role="Tank"
-             icon="/ow2/mothekiller.png"
+             icon="/ow2/tuneeternal.png"
            />
-         <TeamMemberCard
-             name="Ourboy"
-             role="DPS"
+           <TeamMemberCard
+             name="Luis Ourboy"
+             role="Tank"
              icon="/ow2/ourboy.png"
            />
            <TeamMemberCard
-             name="TimmyTumTum"
-             role="DPS"
-             icon="/ow2/timmytumtum.png"
+             name="Motherkiller"
+             role="Flex DPS"
+             icon="/ow2/mothekiller.png"
            />
            <TeamMemberCard
              name="Fishmarket"
-             role="DPS"
+             role="Flex DPS"
              icon="/ow2/fishmarket.png"
            />
            <TeamMemberCard
-           name="Maddy"
-           role="DPS"
-           icon="/ow2/Maddy.png"
+             name="TimmyTumTum"
+             role="Hitscan DPS"
+             icon="/ow2/timmytumtum.png"
+           />
+           <TeamMemberCard
+           name="CyborgCutie"
+           role="Hitscan DPS"
+           icon="/games/overwatch-2.png"
          />
            <TeamMemberCard
              name="Julie"
-             role="Support"
+             role="Main Support"
              icon="/ow2/julie.png"
            />
            <TeamMemberCard
              name="Watson"
-             role="Support"
+             role="Flex Support"
              icon="/ow2/watson.png"
-           />
-           <TeamMemberCard
-             name="TuneEternal"
-             role="Flex"
-             icon="/ow2/tuneeternal.png"
            />
          </div>
        </div> 

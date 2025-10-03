@@ -151,12 +151,12 @@ export default function RainbowSixSiegePage() {
         />
         <TeamMemberCard
           name="Yoyo"
-          role="Flex"
+          role="IGL Flex"
           icon="/rainbow-six-siege/yoyo.png"
         />
         <TeamMemberCard
           name="Rango"
-          role="IGL Support"
+          role="Support"
           icon="/rainbow-six-siege/rango.png"
         />
         <TeamMemberCard
@@ -178,6 +178,11 @@ export default function RainbowSixSiegePage() {
           name="Crimson"
           role="Sub"
           icon="/rainbow-six-siege/crimpfp.png"
+        />
+        <TeamMemberCard
+          name="Nauq"
+          role="Sub"
+          icon="/rainbow-six-siege/nauq.png"
         />
         <TeamMemberCard
           name="Globby"

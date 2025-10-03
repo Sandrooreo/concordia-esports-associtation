@@ -135,13 +135,13 @@ export default function StaffAndCreativeTeam() {
         />
         <TeamMemberCard
           name="Arcade"
-          role="VP Marketing -- LoL Coordinator"
+          role="VP Marketing"
           icon="/league-of-legends/arcade.png"
         />
         <TeamMemberCard
-          name="KatieKatelin"
-          role="VP Internal -- LoL Coordinator"
-          icon="/staff/katiekatelin.png"
+          name="Darango"
+          role="VP Internal"
+          icon="/rainbow-six-siege/rango.png"
         />
         <TeamMemberCard
           name=".Syl"
@@ -197,6 +197,11 @@ export default function StaffAndCreativeTeam() {
           name="Kajiida"
           role="Apex Coordinator"
           icon="/apex/kajiida.png"
+        />
+        <TeamMemberCard
+          name="Mr.2"
+          role="League Coordinator"
+          icon="/staff/mr2.png"
         />
       </div>
 

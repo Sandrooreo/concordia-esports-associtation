@@ -81,9 +81,9 @@ export default function ValorantPage() {
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
               <TeamMemberCard
-                name="Malderdoge"
-                role="Player"
-                icon="/valorant/malderdoge.png"
+                name="Squidometer"
+                role="IGL"
+                icon="/valorant/squid.png"
               />
               <TeamMemberCard
                 name="Alchemyy"
@@ -91,44 +91,39 @@ export default function ValorantPage() {
                 icon="/valorant/alchemyy.png"
               />
               <TeamMemberCard
-                name="izakazuya"
+                name="Apole"
                 role="Player"
-                icon="/valorant/kazuya.png"
+                icon="/valorant/apole.png"
               />
               <TeamMemberCard
-                name="Notetr"
+                name="Art3mka"
                 role="Player"
-                icon="/valorant/notetr.png"
+                icon="/valorant/art3mka.gif"
               />
               <TeamMemberCard
-                name="Owzee"
+                name="Babornor"
                 role="Player"
-                icon="/rainbow-six-siege/oz.png"
+                icon="/valorant/babornor.png"
               />
               <TeamMemberCard
-                name="Huntxr_"
-                role="Player"
-                icon="/valorant/huntxr.png"
-              />
-              <TeamMemberCard
-                name="Mel_001"
+                name="Stay"
                 role="Sub"
-                icon="/valorant/mel.png"
+                icon="/valorant/stay.png"
               />
               <TeamMemberCard
                 name="Chrislablitz"
-                role="Analyst and Sub"
+                role="Analyst -- Coach"
                 icon="/valorant/chris.png"
               />
               <TeamMemberCard
                 name="Ronnyrdy"
-                role="Coach"
+                role="Coach -- Sub"
                 icon="/valorant/ronnyrdy.png"
               />
               <TeamMemberCard
-                name="Thrillaval"
-                role="Coach"
-                icon="/valorant/thrillaval.png"
+                name="Yellcwroses"
+                role="Manager"
+                icon="/staff/yellcwroses.png"
               />
               {/* Add more TeamMemberCards as needed */}
             </div>
